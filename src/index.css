@@ -223,6 +223,12 @@
     height: 17px;
 }
 
+.menu .menu__search {
+    position: absolute;
+    left: 1173px;
+    top: 17px;
+}
+
 @font-face {
     font-family: "BrutalBold";
     src: url("./assets/fonts/BrutalBold.woff") format("truetype"); 
