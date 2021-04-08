@@ -17,17 +17,141 @@
     background: linear-gradient(360deg, #223036 0%, #223036 100%);
 }
 
+.banner .banner_logo {
+    position: absolute;
+    width: 370px;
+    height: 80px;
+    left: 47px;
+    top: 48px;
+}
+
+.banner_logo .logo_name {
+    position: absolute;
+    top: 21px;
+    height: 40px;
+}
+
+.logo_name .logo_name__h .h1 {
+    position: absolute;
+    left: 22px;
+}
+
+.logo_name .logo_name__h .h2 {
+    position: absolute;
+    left: 47px;
+}
+
+.logo_name .logo_name__a1 .a1 {
+    position: absolute;
+    left: 62px;
+}
+
+.logo_name .logo_name__a1 .a2 {
+    position: absolute;
+    left: 77px;
+}
+
+.logo_name .logo_name__r1 .r1 {
+    position: absolute;
+    left: 107px;
+}
+
+.logo_name .logo_name__r1 .r2 {
+    position: absolute;
+    left: 119px;
+}
+
+.logo_name .logo_name__r1 .r3 {
+    position: absolute;
+    left: 123px;
+    top: 28px;
+}
+
+.logo_name .logo_name__d .d1 {
+    position: absolute;
+    left: 147px;
+}
+
+.logo_name .logo_name__d .d2 {
+    position: absolute;
+    left: 159px;
+}
+
+.logo_name .logo_name__w .w1 {
+    position: absolute;
+    left: 183px;
+}
+
+.logo_name .logo_name__w .w2 {
+    position: absolute;
+    left: 193px;
+    top: 14px;
+}
+
+.logo_name .logo_name__w .w3 {
+    position: absolute;
+    left: 210px;
+}
+
+.logo_name .logo_name__a2 .a1 {
+    position: absolute;
+    left: 232px;
+}
+
+.logo_name .logo_name__a2 .a2 {
+    position: absolute;
+    left: 247px;
+}
+
+.logo_name .logo_name__r2 .r1 {
+    position: absolute;
+    left: 276px;
+}
+
+.logo_name .logo_name__r2 .r2 {
+    position: absolute;
+    left: 288px;
+}
+
+.logo_name .logo_name__r2 .r3 {
+    position: absolute;
+    left: 292px;
+    top: 28px;
+}
+
+.logo_name .logo_name__e .e1 {
+    position: absolute;
+    left: 317px;
+}
+
+.logo_name .logo_name__e .e2 {
+    position: absolute;
+    left: 329px;
+}
+
+.logo_name .logo_name__e .e3 {
+    position: absolute;
+    left: 329px;
+    top: 15px;
+}
+
+.logo_name .logo_name__e .e4 {
+    position: absolute;
+    left: 329px;
+    top: 31px;
+}
+
 .banner .banner_content {
     position: absolute;
     width: 658px;
     height: 87px;
     left: 474px;
-    top: 46px;
+    top: 43px;
 }
 
 .banner_content span {
     font-size: 14px;
-    line-height: 21px;
+    line-height: 22px;
     font-family: "PTSansCaptionRegular";
     font-feature-settings: 'tnum' on, 'lnum' on;
 }
