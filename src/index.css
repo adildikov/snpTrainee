@@ -156,6 +156,8 @@
     font-feature-settings: 'tnum' on, 'lnum' on;
 }
 
+
+
 @font-face {
     font-family: "BrutalBold";
     src: url("./assets/fonts/BrutalBold.woff") format("truetype"); 
