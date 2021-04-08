@@ -3,10 +3,34 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 14px;
-    color: #fff;
+    color: #ffffff;
 }
 
+.wrapper {
+    width: 1200px;
+    margin-left: 359px;
+    position: relative;
+}
 
+.head .banner {
+    height: 173px;
+    background: linear-gradient(360deg, #223036 0%, #223036 100%);
+}
+
+.banner .banner_content {
+    position: absolute;
+    width: 658px;
+    height: 87px;
+    left: 474px;
+    top: 46px;
+}
+
+.banner_content span {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "PTSansCaptionRegular";
+    font-feature-settings: 'tnum' on, 'lnum' on;
+}
 
 @font-face {
     font-family: "BrutalBold";
@@ -60,5 +84,5 @@
     font-family: "PTSansCaptionRegular";
     src: url("./assets/fonts/PTSansCaption-Regular.ttf") format("truetype"); 
     font-style: normal; 
-    font-weight: normal; 
+    font-weight: 400; 
 }
