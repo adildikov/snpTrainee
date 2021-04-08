@@ -167,6 +167,60 @@
     line-height: 10px;
     align-items: center;
     text-align: right;
+    text-decoration: none;
+}
+
+.head .menu {
+    position: relative;
+    margin-top: 1px;
+    height: 48px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.menu a {
+    margin-left: 49px;
+    margin-top: 13px;
+
+    font-family: "BrutalRegular";
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.menu .menu__hide {
+    position: absolute;
+    left: 46px;
+    top: 17px;
+}
+
+.menu .menu__news {
+    width: 64px;
+    height: 17px;
+    margin-left: 103px;
+}
+
+.menu .menu__video {
+    width: 54px;
+    height: 17px;
+}
+
+.menu .menu__tests {
+    width: 47px;
+    height: 17px;
+}
+
+.menu .menu__series {
+    width: 51px;
+    height: 17px;
+}
+
+.menu .menu__categories {
+    width: 54px;
+    height: 17px;
 }
 
 @font-face {
