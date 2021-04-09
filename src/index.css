@@ -577,6 +577,107 @@ body {
     margin-left: 72px;
 }
 
+.main_head {
+    font-family: "PTSansCaptionRegular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 22px;
+    margin-left: -2px;
+    margin-top: 38px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.main_bigSection {
+    position: relative;
+    margin-top: 39px;
+    width: 789px;
+    height: 1120px;
+    color: #ffffff;
+}
+
+.bigSection_firstBlock {
+    width: 789px;
+    height: 492px;
+    background-image: url(./assets/bigSection_firstBlock.png);
+}
+
+.firstBlock__label {
+    position: absolute;
+    width: 118px;
+    height: 24px;
+    left: 20px;
+    top: 150px;
+    background: #FAAF3F;
+    border-radius: 2px;
+}
+
+.firstBlock__label span {
+    width: 118px;
+    height: 11px;
+    padding-left: 11px;
+    padding-top: 2px;
+    font-family: "BrutalMedium";
+    display: flex;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.firstBlock__head {
+    position: absolute;
+    width: 558px;
+    height: 83px;
+    top: 214px;
+    left: 20px;
+
+    font-family: "BrutalBold";
+    font-size: 24px;
+    line-height: 30px;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+.firstBlock__content {
+    position: absolute;
+    width: 720px;
+    height: 73px;
+    top: 319px;
+    left: 20px;
+
+    font-family: "PTSansRegular";
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.firstBlock__inscription {
+    position: absolute;
+    width: 294px;
+    height: 23px;
+    left: 20px;
+    top: 435px;
+    
+    font-family: "PTSansBold";
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.firstBlock__inscription span {
+    font-family: "PTSansRegular";
+    font-size: 10px;
+}
+
+.firstBlock_labels {
+    position: absolute;
+    left: 590px;
+    top: 443px;
+    display: flex;
+}
+
 @font-face {
     font-family: "BrutalBold";
     src: url("./assets/fonts/BrutalBold.woff") format("truetype"); 
