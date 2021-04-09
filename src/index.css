@@ -289,6 +289,12 @@ body {
     margin-left: 176px;
 }
 
+.sideVideo .side_head__other {
+    width: 62px;
+    height: 24px;
+    margin-left: 172px;
+}
+
 .sideSeries_body {
     position: absolute;
     top: 55px;
@@ -466,6 +472,49 @@ body {
     margin-left: 5px;
 
     align-items: center;
+}
+
+.sideVideo {
+    position: absolute;
+    left: 881px;
+    top: 1177px;
+    width: 251px;
+    height: 270px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sideVideo_body {
+    width: 214px;
+    height: 146px;
+    margin-left: 20px;
+    margin-top: 24px;
+    background-image: url(./assets/sideVideos.png);
+}
+
+.sideVideo_body img {
+    margin-top: 57px;
+    margin-left: 91px;
+}
+
+.sideVideo__text {
+    font-family: "PTSansRegular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    margin-left: 21px;
+    margin-top: 16px;
+    
+    color: #333333;
+}
+
+.sideNews {
+    position: absolute;
+    left: 881px;
+    top: 1467px;
+    width: 251px;
+    height: 226px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 @font-face {
