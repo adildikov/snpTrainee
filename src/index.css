@@ -571,6 +571,12 @@ body {
     color: #333333;
 }
 
+.main {
+    width: 789px;
+    height: 2110px;
+    margin-left: 72px;
+}
+
 @font-face {
     font-family: "BrutalBold";
     src: url("./assets/fonts/BrutalBold.woff") format("truetype"); 
