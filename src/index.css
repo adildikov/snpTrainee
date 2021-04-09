@@ -351,17 +351,17 @@ body {
 .content_progress .content_progress__line {
     width: 259px;
     height: 0px;
-    margin-left: -125px;
-    margin-top: 125px;
-    border-bottom: 1.5px solid #828282;
-    transform: rotate(-90deg);
+    margin-left: 5px;
 }
 
 .content_progress .content_progress__topline {
     position: absolute;
-    width: 17px;
-    height: 17px;
-    background: linear-gradient(180.28deg, #FFFFFF 0.23%, rgba(255, 255, 255, 0) 74.8%);
+    top: 0px;
+    left: -5px;
+    width: 20px;
+    height: 15px;
+    background: linear-gradient(180.28deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 126.37%), linear-gradient(180.28deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 126.37%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .content_progress .content_progress__bottomline {
@@ -385,6 +385,29 @@ body {
 .content_progress__circle3 {
     position: absolute;
     top: 165px;
+}
+
+.sideSeries__btn {
+    position: absolute;
+    width: 214px;
+    height: 32px;
+    top: 390px;
+    left: 20px;
+    background: #FAAF3F;
+    border-radius: 2px;
+}
+
+.sideSeries__btn span {
+    font-family: "BrutalRegular";
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 49px;
+    margin-top: 7px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 @font-face {
