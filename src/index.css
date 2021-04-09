@@ -598,12 +598,13 @@ body {
 }
 
 .bigSection_firstBlock {
+    position: relative;
     width: 789px;
     height: 492px;
     background-image: url(./assets/bigSection_firstBlock.png);
 }
 
-.firstBlock__label {
+.block__label {
     position: absolute;
     width: 118px;
     height: 24px;
@@ -613,7 +614,7 @@ body {
     border-radius: 2px;
 }
 
-.firstBlock__label span {
+.block__label span {
     width: 118px;
     height: 11px;
     padding-left: 11px;
@@ -626,7 +627,7 @@ body {
     text-transform: uppercase;
 }
 
-.firstBlock__head {
+.block__head {
     position: absolute;
     width: 558px;
     height: 83px;
@@ -642,7 +643,7 @@ body {
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.75);
 }
 
-.firstBlock__content {
+.block__content {
     position: absolute;
     width: 720px;
     height: 73px;
@@ -654,7 +655,7 @@ body {
     line-height: 24px;
 }
 
-.firstBlock__inscription {
+.block__inscription {
     position: absolute;
     width: 294px;
     height: 23px;
@@ -666,16 +667,119 @@ body {
     line-height: 24px;
 }
 
-.firstBlock__inscription span {
+.block__inscription span {
     font-family: "PTSansRegular";
     font-size: 10px;
 }
 
-.firstBlock_labels {
+.block_labels {
     position: absolute;
     left: 590px;
     top: 443px;
     display: flex;
+}
+
+.bigSection_secondBlock {
+    position: relative;
+    width: 789px;
+    height: 492px;
+    margin-top: 25px;
+
+    display: flex;
+}
+
+.secondBlock_left {
+    position: relative;
+    width: 517px;
+    height: 492px;
+    background-image: url(./assets/secondBlock_left.png);
+}
+
+.secondBlock_left .block__label {
+    top: 85px;
+}
+
+.secondBlock_left .block__label span{
+    padding-left: 28px;
+}
+
+.secondBlock_left .block__head {
+    width: 430px;
+    height: 83px;
+    top: 149px;
+}
+
+.secondBlock_left .block__content {
+    width: 430px;
+    height: 100px;
+    top: 273px;
+}
+
+.secondBlock_left .block__inscription {
+    width: 430px;
+    height: 100px;
+    top: 409px;
+}
+
+.secondBlock_left .block_labels {
+    left: 10px;
+    top: 446.5px;
+}
+
+.secondBlock_right {
+    position: relative;
+    width: 247px;
+    height: 492px;
+    margin-left: 25px;
+    background-image: url(./assets/secondBlock_right.png);
+}
+
+.secondBlock_right .block__label{
+    top: 85px;
+    left: 20px;
+}
+
+.secondBlock_right .block__label span{
+    padding-left: 28px;
+}
+
+.secondBlock_right .block__head {
+    width: 217px;
+    height: 186px;
+    top: 149px;
+}
+
+.secondBlock_right .block__inscription {
+    width: 430px;
+    height: 100px;
+    top: 409px;
+    left: 18px;
+}
+
+.secondBlock_right .block_labels {
+    left: 9px;
+    top: 446.5px;
+}
+
+.bigSection__text {
+    width: 791px;
+    height: 66px;
+    margin-top: 28px;
+    margin-left: -2px;
+}
+
+.bigSection__text span {
+    font-family: "PTSansRegular";
+    font-size: 17px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.bigSection__text b {
+    font-family: "PTSansBold";
+    font-size: 17px;
+    line-height: 24px;
+    color: #333333;
 }
 
 @font-face {
