@@ -245,35 +245,27 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.sideSeries_head__name {
-    position: absolute;
+.side_head__name {
     width: 92px;
     height: 24px;
-    top: 20px;
-    left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
     background: #333333;
     border-radius: 2px;
-}
-
-.sideSeries_head__name span {
-    display: flex;
+    
     font-family: "BrutalRegular";
     font-size: 14px;
     line-height: 18px;
-    margin-left: 22.5px;
-    margin-top: 2px;
+    padding-left: 1px;
+    padding-top: 2px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
-.sideSeries_head__other {
-    position: absolute;
-    width: 61px;
-    height: 24px;
-    left: 173px;
-    top: 20px;
+.side_head__other {
+    margin-top: -23.5px;
 
     font-family: "PTSansRegular";
     font-size: 14px;
@@ -283,6 +275,18 @@ body {
     align-items: center;
 
     color: #0776D2;
+}
+
+.sideSeries .side_head__other {
+    width: 61px;
+    height: 24px;
+    margin-left: 173px;
+}
+
+.sideTests .side_head__other {
+    width: 59px;
+    height: 24px;
+    margin-left: 176px;
 }
 
 .sideSeries_body {
@@ -300,12 +304,12 @@ body {
     color: #333333;
 }
 
-.sideSeries_body__content {
+.sideSeries_body_content {
     height: 250px;
     margin: 15px 15px 0 15px;
 }
 
-.sideSeries_body__content .content_items1 {
+.sideSeries_body_content .content_items1 {
     display: flex;
     font-family: "PTSansRegular";
     font-style: normal;
@@ -317,7 +321,7 @@ body {
     color: #333333;
 }
 
-.sideSeries_body__content .content_items2 {
+.sideSeries_body_content .content_items2 {
     display: flex;
     font-family: "PTSansRegular";
     font-style: normal;
@@ -329,7 +333,7 @@ body {
     color: #333333;
 }
 
-.sideSeries_body__content .content_items3 {
+.sideSeries_body_content .content_items3 {
     display: flex;
     font-family: "PTSansRegular";
     font-style: normal;
@@ -337,11 +341,11 @@ body {
     font-size: 15px;
     line-height: 21px;
     margin-left: 20px;
-    margin-top: 24px;
+    margin-top: 23px;
     color: #333333;
 }
 
-.sideSeries_body__content .content_progress {
+.sideSeries_body_content .content_progress {
     position: absolute;
     top: 65px;
     width: 10px;
@@ -387,27 +391,81 @@ body {
     top: 165px;
 }
 
-.sideSeries__btn {
+.side__btn {
     position: absolute;
     width: 214px;
     height: 32px;
-    top: 390px;
+    bottom: 20px;
     left: 20px;
     background: #FAAF3F;
     border-radius: 2px;
-}
 
-.sideSeries__btn span {
     font-family: "BrutalRegular";
     font-size: 14px;
     line-height: 18px;
-    margin-left: 49px;
-    margin-top: 7px;
-
-    display: flex;
+    padding-top: 6px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
+}
+
+.sideTests .side__btn {
+    bottom: 23px;
+}
+
+.sideTests {
+    position: absolute;
+    width: 251px;
+    height: 374px;
+    left: 881px;
+    top: 783px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sideTests .sideTests_body {
+    margin-top: 16.5px;
+    margin-left: 19px;
+    width: 215px;
+    height: 238px;
+    background-image: url(./assets/sideTests.png);
+}
+
+.sideTests_body_content {
+    width: 215px;
+    height: 238px;
+}
+
+.sideTests_body_content .content__text {
+    margin-left: 20px;
+    padding-top: 60px;
+    font-family: "BrutalBold";
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.content_labels {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 69px;
+}
+
+.labels__item {
+    display: flex;
+    margin-left: 10px;
+}
+
+.item__num {
+    font-family: "PTSansCaptionRegular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    margin-left: 5px;
+
+    align-items: center;
 }
 
 @font-face {
