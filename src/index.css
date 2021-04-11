@@ -390,7 +390,7 @@ body {
 
 .content_progress__circle1 {
     position: absolute;
-    top: 15px;
+    top: 16px;
 }
 
 .content_progress__circle2 {
@@ -400,7 +400,7 @@ body {
 
 .content_progress__circle3 {
     position: absolute;
-    top: 165px;
+    top: 166px;
 }
 
 .side__btn {
@@ -439,7 +439,7 @@ body {
     margin-left: 19px;
     width: 215px;
     height: 238px;
-    background-image: url(./assets/sideTests.png);
+    background-image: url(./assets/side/sideTests.png);
 }
 
 .sideTests_body_content {
@@ -495,7 +495,7 @@ body {
     height: 146px;
     margin-left: 20px;
     margin-top: 24px;
-    background-image: url(./assets/sideVideos.png);
+    background-image: url(./assets/side/sideVideos.png);
 }
 
 .sideVideo_body img {
@@ -837,6 +837,7 @@ body {
 
 .best_content {
     display: flex;
+    margin-left: -1px;
     margin-top: 23px;
 }
 
@@ -866,7 +867,7 @@ body {
 
 .section .section__head {
     margin-top: 15px;
-    margin-left: 19px;
+    margin-left: 20px;
     font-family: "BrutalBold";
     font-size: 15px;
     line-height: 24px;
@@ -878,6 +879,172 @@ body {
 .section .block_labels {
     top: 142px;
     left: 9px;
+}
+
+.main .series {
+    height: 600px;
+    margin-top: 35px;
+}
+
+.series_head {
+    height: 39px;
+    margin-top: 3px;
+    margin-left: -2px;
+    display: inline-flex;
+}
+
+.series_head .nav_arrows {
+    margin-top: 1px;
+    margin-left: 663px;
+}
+
+.series_head .head__text{
+    font-family: "PTSansCaptionRegular";
+    font-size: 28px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.series_content {
+    margin-top: 22px;
+    margin-left: -1px;
+    display: flex;
+}
+
+.series_section {
+    position: relative;
+    width: 380px;
+    height: 516px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.series_section + .series_section {
+    margin-left: 29px;
+}
+
+.series_section .section__head {
+    margin-left: 21px;
+    margin-top: 21px;
+    width: 250px;
+    height: 46px;
+    
+    font-family: "BrutalBold";
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.series_section .section_body {
+    margin-top: 20px;
+    margin-left: 16px;
+    width: 340px;
+    height: 370px;
+}
+
+.section_body .body_progress {
+    position: relative;
+    margin-left: 1px;
+    width: 15px;
+}
+
+.progress__line {
+    margin-left: 5px;
+}
+
+.progress__circle1 {
+    position: absolute;
+    top: 11px;
+}
+
+.progress__circle2 {
+    position: absolute;
+    top: 56px;
+}
+
+.progress__circle3 {
+    position: absolute;
+    top: 121px;
+}
+
+.progress__circle4 {
+    position: absolute;
+    top: 205px;
+}
+
+.progress__circle5 {
+    position: absolute;
+    top: 289px;
+}
+
+.progress__topline {
+    position: absolute;
+    width: 20px;
+    height: 8px;
+    background: linear-gradient(180.28deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 126.37%), linear-gradient(180.28deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 126.37%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.progress__bottomline {
+    position: absolute;
+    top: 330px;
+    width: 17px;
+    height: 46px;
+    background: linear-gradient(180.28deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 74.8%);
+}
+
+.body_items {
+    position: absolute;
+    left: 41px;
+    top: 93px;
+}
+
+.body_item {
+    width: 320px;
+    height: 20px;
+    
+    font-family: "PTSansRegular";
+    font-size: 15px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.body_item + .body_item {
+    margin-top: 25px;
+}
+
+.body_item.first {
+    height: 20px;
+}
+
+.body_item.second {
+    height: 41px;
+}
+
+.body_item.third {
+    height: 59px;
+}
+
+.series_section .section_btn {
+    margin-left: 90px;
+    width: 197px;
+    height: 32px;
+    
+    background: #FAAF3F;
+    border-radius: 2px;
+}
+
+.series_section .section_btn span {
+    margin-left: 41px;
+    padding-top: 7px;
+
+    font-family: "BrutalRegular";
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 @font-face {
