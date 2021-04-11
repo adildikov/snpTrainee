@@ -782,6 +782,104 @@ body {
     color: #333333;
 }
 
+.best_head {
+    height: 50px;
+    display: inline-flex;
+}
+
+.best_head__item {
+    height: 29px;
+    margin-left: -1px;
+    margin-top: 15px;
+    font-family: "PTSansBold";
+    font-size: 17px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.best_head__item + .best_head__item {
+    margin-left: 55px;
+}
+
+.best_head__item.first {
+    width: 128px;
+}
+
+.best_head__item.second {
+    width: 108px;
+}
+
+.best_head__item.third {
+    width: 158px;
+    margin-left: 45px;
+}
+
+.best_head__item.item_active {
+    border-bottom: 2px solid #F7AB32;
+}
+
+.nav_arrows {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 248px;
+}
+
+.nav_arrows__arrleft {
+    width: 13px;
+    height: 13px;
+}
+
+.nav_arrows__arrright {
+    width: 13px;
+    height: 13px;
+    margin-left: 22.5px;
+}
+
+.best_content {
+    display: flex;
+    margin-top: 23px;
+}
+
+.best_content .section {
+    width: 250px;
+    height: 177px;
+}
+
+.best_content .section + .section {
+    margin-left: 20px;
+}
+
+.section.first {
+    position: relative;
+    background-image: url(./assets/section1.png);
+}
+
+.section.second {
+    position: relative;
+    background-image: url(./assets/section2.png);
+}
+
+.section.third {
+    position: relative;
+    background-image: url(./assets/section3.png);
+}
+
+.section .section__head {
+    margin-top: 15px;
+    margin-left: 19px;
+    font-family: "BrutalBold";
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.section .block_labels {
+    top: 142px;
+    left: 9px;
+}
+
 @font-face {
     font-family: "BrutalBold";
     src: url("./assets/fonts/BrutalBold.woff") format("truetype"); 
