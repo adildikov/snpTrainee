@@ -1047,6 +1047,13 @@ body {
     color: #FFFFFF;
 }
 
+
+@media screen and (max-width: 1440px) {
+    .wrapper {
+        margin-left: 120px;
+    }
+}
+
 @font-face {
     font-family: "BrutalBold";
     src: url("./assets/fonts/BrutalBold.woff") format("truetype"); 
