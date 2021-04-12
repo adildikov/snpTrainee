@@ -1087,6 +1087,22 @@ body {
         text-align: right;
         text-decoration: none;
     }
+    
+    .menu .menu__hide {
+        left: 39px;
+    }
+
+    .menu .menu__news {
+        width: 64px;
+        height: 17px;
+        margin-left: 84px;
+    }
+    
+    .menu .menu__search {
+        position: absolute;
+        left: 989px;
+        top: 17px;
+    }
 }
 
 @font-face {
