@@ -1054,6 +1054,41 @@ body {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 1024px;
+        margin-left: 0px;
+    }
+
+    .banner .banner_logo {
+        left: 32px;
+    }
+
+    .banner .banner_content {
+        width: 550px;
+        top: 36px;
+        left: 424.5px;
+    }
+
+    .banner .banner_content span span{
+        white-space: nowrap;
+    }
+
+    .banner__btn a {
+        position: absolute;
+        width: 40px;
+        height: 13px;
+        left: 969px;
+        top: 16px;
+        font-family: "PTSansBold";
+        font-size: 15px;
+        line-height: 10px;
+        align-items: center;
+        text-align: right;
+        text-decoration: none;
+    }
+}
+
 @font-face {
     font-family: "BrutalBold";
     src: url("./assets/fonts/BrutalBold.woff") format("truetype"); 
