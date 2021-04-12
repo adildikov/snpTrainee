@@ -877,8 +877,8 @@ body {
 }
 
 .section .block_labels {
-    top: 142px;
-    left: 9px;
+    top: 141px;
+    left: 9.5px;
 }
 
 .main .series {
@@ -1102,6 +1102,119 @@ body {
         position: absolute;
         left: 989px;
         top: 17px;
+    }
+
+    .main {
+        width: 730px;
+        margin-left: 12px;
+    }
+    
+    .main_head {
+        margin-left: -2px;
+        margin-top: 29px;
+    }
+    
+    .main_bigSection {
+        margin-top: 43px;
+        width: 750px;
+    }
+    
+    .bigSection_firstBlock {
+        margin-top: 20px;
+        width: 730px;
+        height: 492px;
+        background-image: url(./assets/bigSection_firstBlock1024.png);
+    }
+    
+    .block__content {
+        width: 692px;
+        top: 319px;
+        left: 20px;
+    }
+
+    .block__content span {
+        font-family: "PTSansRegular";
+        font-size: 18px;
+        line-height: 24px;
+        white-space: nowrap;
+    }
+    
+    .block__inscription {
+        display: flex;
+        position: absolute;
+        width: 294px;
+        height: 23px;
+        left: 20px;
+        top: 436px;
+        
+        font-family: "PTSansBold";
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    .block__inscription span {
+        margin-left: 2px;
+        margin-top: 2px;
+        font-family: "PTSansRegular";
+        font-size: 10px;
+    }
+    
+    .block_labels {
+        left: 532px;
+        top: 440px;
+    }
+    
+    .secondBlock_left {
+        width: 354px;
+        height: 492px;
+        background-image: url(./assets/secondBlock_left1024.png);
+    }
+    
+    .secondBlock_left .block__head {
+        width: 314px;
+    }
+    
+    .secondBlock_left .block__content {
+        display: none;
+    }
+    
+    .secondBlock_left .block_labels {
+        top: 446px;
+    }
+    
+    .secondBlock_right {
+        width: 354px;
+        margin-left: 22px;
+        background-image: url(./assets/secondBlock_right1024.png);
+    }
+    
+    .secondBlock_right .block__inscription {
+        left: 20px;
+    }
+    
+    .secondBlock_right .block_labels {
+        left: 10px;
+        top: 446px;
+    }
+    
+    .bigSection__text {
+        width: 732px;
+        margin-top: 28px;
+        margin-left: -2px;
+    }
+    
+    .bigSection__text span {
+        font-family: "PTSansRegular";
+        font-size: 17px;
+        line-height: 24px;
+        color: #333333;
+    }
+    
+    .bigSection__text b {
+        font-family: "PTSansBold";
+        font-size: 17px;
+        line-height: 24px;
+        color: #333333;
     }
 }
 
