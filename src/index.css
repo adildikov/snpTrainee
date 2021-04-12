@@ -1296,6 +1296,32 @@ body {
     
     .side__btn {
         padding-left: 2px;
+        padding-top: 7px;
+    }
+
+    .sideTests .side_head__other {
+        width: 59px;
+        height: 24px;
+        margin-left: 176px;
+        margin-top: -25px;
+    }
+
+    .sideTests .side__btn {
+        bottom: 23px;
+    }
+    
+    .sideTests {
+        left: 762px;
+        top: 780px;
+    }
+    
+    .sideTests_head {
+        margin-top: 18px;
+    }
+
+    .sideTests .sideTests_body {
+        margin-top: 19px;
+        margin-left: 19px;
     }
 }
 
