@@ -1396,8 +1396,9 @@ body {
 
 @media screen and (max-width: 768px) {
     .wrapper {
+        overflow: hidden;
         width: 768px;
-        height: 2338px;
+        height: 2540px;
         position: relative;
         background-color: #ffffff;
     }
@@ -1538,7 +1539,7 @@ body {
     }
     
     .block_labels {
-        left: 23.5px;
+        left: 22px;
         top: 355px;
     }
     
@@ -1614,245 +1615,79 @@ body {
         margin-top: 27px;
         margin-left: 15px;
     }
-    
-    .best_head {
-        height: 50px;
-        display: inline-flex;
-    }
-    
+
     .best_head__item {
-        height: 29px;
-        margin-left: -1px;
+        height: 34px;
+        margin-left: 15px;
         margin-top: 15px;
-        font-family: "PTSansBold";
-        font-size: 17px;
-        line-height: 24px;
-        color: #333333;
     }
     
     .best_head__item + .best_head__item {
         margin-left: 55px;
     }
     
-    .best_head__item.first {
-        width: 128px;
-    }
-    
-    .best_head__item.second {
-        width: 108px;
-    }
-    
     .best_head__item.third {
-        width: 158px;
         margin-left: 45px;
     }
     
     .best_head__item.item_active {
-        border-bottom: 2px solid #F7AB32;
+        border-bottom: 4px solid #F7AB32;
     }
     
     .nav_arrows {
-        display: flex;
-        margin-top: 16px;
-        margin-left: 248px;
-    }
-    
-    .nav_arrows__arrleft {
-        width: 13px;
-        height: 13px;
-    }
-    
-    .nav_arrows__arrright {
-        width: 13px;
-        height: 13px;
-        margin-left: 22.5px;
+        display: none;
     }
     
     .best_content {
         display: flex;
-        margin-left: -1px;
-        margin-top: 23px;
-    }
-    
-    .best_content .section {
-        width: 250px;
-        height: 177px;
-    }
-    
-    .best_content .section + .section {
-        margin-left: 20px;
-    }
-    
-    .section.first {
-        position: relative;
-        background-image: url(./assets/section1.png);
-    }
-    
-    .section.second {
-        position: relative;
-        background-image: url(./assets/section2.png);
-    }
-    
-    .section.third {
-        position: relative;
-        background-image: url(./assets/section3.png);
-    }
-    
-    .section .section__head {
-        margin-top: 15px;
-        margin-left: 20px;
-        font-family: "BrutalBold";
-        font-size: 15px;
-        line-height: 24px;
-        letter-spacing: -0.02em;
-        color: #FFFFFF;
-        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
+        margin-left: 15px;
+        margin-top: 25px;
     }
     
     .section .block_labels {
-        top: 141px;
-        left: 9.5px;
+        top: 141.5px;
+        left: 10px;
     }
     
     .main .series {
         height: 600px;
-        margin-top: 35px;
+        margin-top: 34px;
     }
     
     .series_head {
-        height: 39px;
         margin-top: 3px;
-        margin-left: -2px;
-        display: inline-flex;
+        margin-left: 15px;
     }
     
     .series_head .nav_arrows {
-        margin-top: 1px;
-        margin-left: 663px;
-    }
-    
-    .series_head .head__text{
-        font-family: "PTSansCaptionRegular";
-        font-size: 28px;
-        line-height: 22px;
-        letter-spacing: -0.02em;
-        color: #000000;
+        display: none;
     }
     
     .series_content {
-        margin-top: 22px;
-        margin-left: -1px;
-        display: flex;
+        margin-top: 31px;
+        margin-left: 14px;
     }
     
     .series_section {
-        position: relative;
-        width: 380px;
-        height: 516px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        min-width: 325px;
+        height: 520px;
     }
     
     .series_section + .series_section {
-        margin-left: 29px;
-    }
-    
-    .series_section .section__head {
-        margin-left: 21px;
-        margin-top: 21px;
-        width: 250px;
-        height: 46px;
-        
-        font-family: "BrutalBold";
-        font-size: 20px;
-        line-height: 24px;
-        color: #333333;
+        margin-left: 20px;
     }
     
     .series_section .section_body {
-        margin-top: 20px;
-        margin-left: 16px;
-        width: 340px;
-        height: 370px;
-    }
-    
-    .section_body .body_progress {
-        position: relative;
-        margin-left: 1px;
-        width: 15px;
-    }
-    
-    .progress__line {
-        margin-left: 5px;
-    }
-    
-    .progress__circle1 {
-        position: absolute;
-        top: 11px;
-    }
-    
-    .progress__circle2 {
-        position: absolute;
-        top: 56px;
-    }
-    
-    .progress__circle3 {
-        position: absolute;
-        top: 121px;
-    }
-    
-    .progress__circle4 {
-        position: absolute;
-        top: 205px;
-    }
-    
-    .progress__circle5 {
-        position: absolute;
-        top: 289px;
-    }
-    
-    .progress__topline {
-        position: absolute;
-        width: 20px;
-        height: 8px;
-        background: linear-gradient(180.28deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 126.37%), linear-gradient(180.28deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 126.37%);
-        transform: matrix(1, 0, 0, -1, 0, 0);
-    }
-    
-    .progress__bottomline {
-        position: absolute;
-        top: 330px;
-        width: 17px;
-        height: 46px;
-        background: linear-gradient(180.28deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 74.8%);
-    }
-    
-    .body_items {
-        position: absolute;
-        left: 41px;
-        top: 93px;
+        width: 300px;
     }
     
     .body_item {
-        width: 320px;
+        width: 290px;
         height: 20px;
-        
-        font-family: "PTSansRegular";
-        font-size: 15px;
-        line-height: 21px;
-        color: #333333;
-    }
-    
-    .body_item + .body_item {
-        margin-top: 25px;
     }
     
     .body_item.first {
         height: 20px;
-    }
-    
-    .body_item.second {
-        height: 41px;
     }
     
     .body_item.third {
@@ -1860,24 +1695,15 @@ body {
     }
     
     .series_section .section_btn {
-        margin-left: 90px;
-        width: 197px;
+        margin-left: 21px;
+        margin-top: 10px;
+        width: 285px;
         height: 32px;
-        
-        background: #FAAF3F;
-        border-radius: 2px;
     }
     
     .series_section .section_btn span {
-        margin-left: 41px;
+        margin-left: 85px;
         padding-top: 7px;
-    
-        font-family: "BrutalRegular";
-        font-size: 14px;
-        line-height: 18px;
-        display: flex;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
     }
 }
 
