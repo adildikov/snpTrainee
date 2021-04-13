@@ -235,6 +235,10 @@ body {
     top: 17px;
 }
 
+.menu .menu__search2 {
+    display: none;
+}
+
 .sideSeries {
     position: absolute;
     width: 251px;
@@ -1104,6 +1108,10 @@ body {
         top: 17px;
     }
 
+    .menu .menu__search2 {
+        display: none;
+    }
+
     .main {
         width: 730px;
         margin-left: 12px;
@@ -1387,7 +1395,108 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .wrapper {
+        width: 768px;
+        height: 2338px;
+        position: relative;
+        background-color: #ffffff;
+    }
+    
+    .banner .banner_logo {
+        left: 200px;
+    }
 
+    .banner .banner_content {
+        display: none;
+    }
+    
+    .banner__btn a {
+        position: absolute;
+        width: 40px;
+        height: 13px;
+        left: 713px;
+        top: 16px;
+    }
+    
+    .head .menu {
+        position: relative;
+        margin-top: 1px;
+        height: 48px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        display: flex;
+    }
+    
+    .menu .menu__hide {
+        display: none;
+    }
+    
+    .menu .menu__news {
+        margin-left: 20px;
+    }
+    
+    .menu .menu__video {
+        margin-left: 81px;
+    }
+    
+    .menu .menu__tests {
+        margin-left: 79px;
+    }
+    
+    .menu .menu__series {
+        margin-left: 76px;
+    }
+    
+    .menu .menu__categories {
+        margin-left: 77px;
+    }
+    
+    .menu .menu__search {
+        display: none;
+    }
+
+    .menu .menu__search2 {
+        display: block;
+        margin-left: 102px;
+    }
+
+    .sideSeries {
+        display: none;
+    }
+    
+    .sideTests {
+        display: none;
+    }
+    
+    .content_labels {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 68px;
+    }
+    
+    .labels__item {
+        display: flex;
+        margin-left: 9.5px;
+    }
+    
+    .item__num {
+        font-family: "PTSansCaptionRegular";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 16px;
+        margin-left: 5px;
+    
+        align-items: center;
+    }
+    
+    .sideVideo {
+        display: none;
+    }
+    
+    .sideNews {
+        display: none;
+    }
+    
 }
 
 @font-face {
