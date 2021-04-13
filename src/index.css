@@ -23,6 +23,10 @@ body {
     background: linear-gradient(360deg, #223036 0%, #223036 100%);
 }
 
+.banner .banner__menu {
+    display: none;
+}
+
 .banner .banner_logo {
     position: absolute;
     width: 370px;
@@ -1064,6 +1068,10 @@ body {
         margin-left: 0px;
     }
 
+    .banner .banner__menu {
+        display: none;
+    }
+
     .banner .banner_logo {
         left: 32px;
     }
@@ -1403,6 +1411,13 @@ body {
         background-color: #ffffff;
     }
     
+    .banner .banner__menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 17px;
+    }
+
     .banner .banner_logo {
         left: 200px;
     }
