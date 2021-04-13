@@ -1810,6 +1810,64 @@ body {
         left: 264px;
         top: 19px;
     }
+    
+    .menu {
+        display: inline-flex;
+        width: 320px;
+    }
+
+    .menu a {
+        margin-left: 0px;
+        margin-top: 13px;
+    
+        font-family: "PTSansCaptionRegular";
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+
+    .menu .menu__hide {
+        display: none;
+    }
+
+    .menu .menu__news {
+        width: 60px;
+        height: 30px;
+        margin-left: 14px;
+    }
+    
+    .menu .menu__video {
+        width: 43px;
+        height: 30px;
+        margin-left: 11px;
+    }
+    
+    .menu .menu__tests {
+        width: 38px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    
+    .menu .menu__series {
+        width: 42px;
+        height: 30px;
+        margin-left: 15px;
+    }
+    
+    .menu .menu__categories {
+        width: 60px;
+        height: 30px;
+        margin-left: 15px;
+    }
+    
+    .menu .menu__search {
+        display: none;
+    }
+    
+    .menu .menu__search2 {
+        display: none;
+    }
 }
 
 @font-face {
