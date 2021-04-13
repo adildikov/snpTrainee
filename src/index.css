@@ -27,6 +27,10 @@ body {
     display: none;
 }
 
+.banner .banner_logoMini {
+    display: none;
+}
+
 .banner .banner_logo {
     position: absolute;
     width: 370px;
@@ -164,6 +168,10 @@ body {
     line-height: 22px;
     font-family: "PTSansCaptionRegular";
     font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+.banner .banner__search {
+    display: none;
 }
 
 .banner__btn a {
@@ -1076,6 +1084,10 @@ body {
         left: 32px;
     }
 
+    .banner .banner_logoMini {
+        display: none;
+    }
+
     .banner .banner_content {
         width: 550px;
         top: 36px;
@@ -1084,6 +1096,10 @@ body {
 
     .banner .banner_content span span{
         white-space: nowrap;
+    }
+    
+    .banner .banner__search {
+        display: none;
     }
 
     .banner__btn a {
@@ -1422,7 +1438,15 @@ body {
         left: 200px;
     }
 
+    .banner .banner_logoMini {
+        display: none;
+    }
+
     .banner .banner_content {
+        display: none;
+    }
+
+    .banner .banner__search {
         display: none;
     }
     
@@ -1722,6 +1746,71 @@ body {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .wrapper {
+        width: 320px;
+        height: 2338px;
+        margin-left: 0px;
+    }
+    
+    .head .banner {
+        position: relative;
+        height: 48px;
+        background: linear-gradient(360deg, #223036 0%, #223036 100%);
+    }
+    
+    .banner .banner__menu {
+        display: block;
+        top: 16px;
+        left: 16px;
+    }
+    
+    .banner .banner_logo {
+        display: none;
+    }
+
+    .banner .banner_logoMini {
+        display: block;
+    }
+
+    .banner_logoMini .logoMini__frame {
+        position: absolute;
+        top: 7px;
+        left: 54px;
+    }
+    .banner_logoMini .logo_name__h img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .banner_logoMini .logo_name__h .h1 {
+        position: absolute;
+        top: 15px;
+        left: 60px;
+    }
+
+    .banner_logoMini .logo_name__h .h2 {
+        position: absolute;
+        top: 15px;
+        left: 68px;
+    }
+
+    .banner .banner_content {
+        display: none;
+    }
+
+    .banner .banner__search {
+        display: block;
+        position: absolute;
+        top: 16px;
+        left: 247px;
+    }
+    
+    .banner__btn a {
+        left: 264px;
+        top: 19px;
+    }
+}
 
 @font-face {
     font-family: "BrutalBold";
