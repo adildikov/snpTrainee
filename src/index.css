@@ -1267,11 +1267,20 @@ body {
         display: none;
     }
     
+    .best {
+        margin-left: -5px;
+    }
+
     .best_content {
         overflow: hidden;
         width: 790px;
+        margin-left: 3px;
     }
     
+    .best_head {
+        margin-left: 5px;
+    }
+
     .section .block_labels {
         top: 140.5px;
         left: 9.5px;
@@ -1291,16 +1300,20 @@ body {
     }
 
     .series_content {
-        margin-top: 25px;
-        margin-left: -1px;
+        width: 750px;
+        height: 530px;
+        margin-top: 21px;
+        margin-left: 9px;
+        overflow: hidden;
     }
 
     .series_section {
-        width: 352px;
+        min-width: 352px;
+        margin-top: 5px;
     }
 
     .series_section + .series_section {
-        margin-left: 30px;
+        margin-left: 28px;
     }
 
     .series_section .section_body {
@@ -1322,6 +1335,10 @@ body {
     }
     .series_section .section_btn {
         margin-left: 78px;
+    }
+
+    .section_btn span {
+        margin-top: -1px;
     }
 
     .sideSeries {
