@@ -1707,7 +1707,7 @@ body {
     
     .best_content {
         display: flex;
-        margin-left: 15px;
+        margin-left: 20px;
         margin-top: 25px;
     }
     
@@ -1723,7 +1723,7 @@ body {
     
     .series_head {
         margin-top: 3px;
-        margin-left: 15px;
+        margin-left: 25px;
     }
     
     .series_head .nav_arrows {
@@ -1731,8 +1731,8 @@ body {
     }
     
     .series_content {
-        margin-top: 31px;
-        margin-left: 14px;
+        margin-top: 25px;
+        margin-left: 24px;
     }
     
     .series_section {
@@ -1763,7 +1763,7 @@ body {
     
     .series_section .section_btn {
         margin-left: 21px;
-        margin-top: 10px;
+        margin-top: 12px;
         width: 285px;
         height: 32px;
     }
