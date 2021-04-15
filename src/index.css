@@ -197,8 +197,8 @@ body {
 }
 
 .menu a {
-    margin-left: 49px;
-    margin-top: 13px;
+    margin-left: 28px;
+    margin-top: 10px;
 
     font-family: "BrutalRegular";
     font-size: 16px;
@@ -216,29 +216,39 @@ body {
 }
 
 .menu .menu__news {
-    width: 64px;
-    height: 17px;
-    margin-left: 103px;
+    width: 86px;
+    height: 28px;
+    margin-left: 90px;
+    padding-left: 13px;
+    padding-top: 3px;
 }
 
 .menu .menu__video {
-    width: 54px;
-    height: 17px;
+    width: 76px;
+    height: 28px;
+    padding-left: 12px;
+    padding-top: 3px;
 }
 
 .menu .menu__tests {
-    width: 47px;
-    height: 17px;
+    width: 69px;
+    height: 28px;
+    padding-left: 11px;
+    padding-top: 3px;
 }
 
 .menu .menu__series {
-    width: 51px;
-    height: 17px;
+    width: 73px;
+    height: 28px;
+    padding-left: 10px;
+    padding-top: 3px;
 }
 
 .menu .menu__categories {
-    width: 64px;
-    height: 17px;
+    width: 82px;
+    height: 28px;
+    padding-left: 9px;
+    padding-top: 3px;
 }
 
 .menu .menu__news:hover,
@@ -247,7 +257,6 @@ body {
 .menu .menu__series:hover,
 .menu .menu__categories:hover {
     color: #ffffff;
-    height: 23px;
     background: #FAAF3F;
     border-radius: 2px;
 }
