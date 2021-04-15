@@ -1581,6 +1581,18 @@ body {
         padding-top: 3px;
     }
 
+    .menu .menu__news:hover,
+    .menu .menu__video:hover,
+    .menu .menu__tests:hover,
+    .menu .menu__series:hover,
+    .menu .menu__categories:hover,
+    .menu .menu__search2:hover {
+        color: #000000;
+        background: #FFFFFF;
+        border-radius: 0px;
+        cursor: default;
+    }
+
     .sideSeries {
         display: none;
     }
