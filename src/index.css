@@ -671,6 +671,12 @@ body {
     line-height: 24px;
 }
 
+.block__content span {
+    font-family: "PTSansRegular";
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .block__inscription {
     position: absolute;
     width: 294px;
