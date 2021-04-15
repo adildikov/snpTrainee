@@ -315,6 +315,11 @@ body {
     color: #0776D2;
 }
 
+.side_head__other:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
 .sideSeries .side_head__other {
     width: 61px;
     height: 24px;
@@ -2257,6 +2262,11 @@ body {
         margin-left: 95px;
     }
 
+    .section_title .side_head__other:hover {
+        text-decoration-line: none;
+        cursor: default;
+    }
+
     .series_content {
         width: 350px;
         height: 430px;
@@ -2287,23 +2297,6 @@ body {
     .section_body .body_progress {
         height: 220px;
         overflow: hidden;
-    }
-    
-    .progress__circle1 {
-        top: 13px;
-    }
-    
-    .progress__circle2 {
-        top: 49px;
-    }
-    
-    .progress__circle3 {
-        top: 124px;
-    }
-    
-    .progress__circle4,
-    .progress__circle5 {
-        display: none;
     }
     
     .progress__topline {
