@@ -215,6 +215,7 @@ body {
     top: 17px;
 }
 
+
 .menu .menu__news {
     width: 86px;
     height: 28px;
@@ -255,7 +256,8 @@ body {
 .menu .menu__video:hover,
 .menu .menu__tests:hover,
 .menu .menu__series:hover,
-.menu .menu__categories:hover {
+.menu .menu__categories:hover,
+.menu .menu__search2:hover {
     color: #ffffff;
     background: #FAAF3F;
     border-radius: 2px;
@@ -1541,23 +1543,28 @@ body {
     }
     
     .menu .menu__news {
-        margin-left: 20px;
+        min-width: 86px;
+        margin-left: 7px;
     }
     
     .menu .menu__video {
-        margin-left: 81px;
+        min-width: 76px;
+        margin-left: 60px;
     }
     
     .menu .menu__tests {
-        margin-left: 79px;
+        min-width: 69px;
+        margin-left: 58px;
     }
     
     .menu .menu__series {
-        margin-left: 76px;
+        min-width: 73px;
+        margin-left: 55px;
     }
     
     .menu .menu__categories {
-        margin-left: 77px;
+        min-width: 82px;
+        margin-left: 57px;
     }
     
     .menu .menu__search {
@@ -1566,7 +1573,12 @@ body {
 
     .menu .menu__search2 {
         display: block;
-        margin-left: 102px;
+        height: 28px;
+        width: 63px;
+        margin-top: 10px;
+        margin-left: 73px;
+        padding-left: 9px;
+        padding-top: 3px;
     }
 
     .sideSeries {
