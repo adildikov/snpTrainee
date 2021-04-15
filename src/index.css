@@ -1087,11 +1087,20 @@ body {
     border-radius: 5px;
 }
 
+.body_item:hover {
+    color: #FAAF3F;
+    cursor: pointer;
+}
+
+.body_item:hover::before {
+    background-color: #FAAF3F;
+}
+
 .body_item span {
     font-family: "PTSansRegular";
     font-size: 15px;
     line-height: 21px;
-    color: #333333;
+    color: inherit;
 }
 
 .body_item + .body_item {
@@ -1117,6 +1126,11 @@ body {
     
     background: #FAAF3F;
     border-radius: 2px;
+}
+
+.series_section .section_btn:hover {
+    background: #F49F21;
+    cursor: pointer;
 }
 
 .series_section .section_btn span {
@@ -1855,6 +1869,15 @@ body {
         width: 290px;
         height: 20px;
     }
+
+    .body_item:hover {
+        color: #333333;
+        cursor: default;
+    }
+    
+    .body_item:hover::before {
+        background-color: #828282;
+    }
     
     .body_item.first {
         height: 20px;
@@ -1869,6 +1892,11 @@ body {
         margin-top: 12px;
         width: 285px;
         height: 32px;
+    }
+
+    .series_section .section_btn:hover {
+        background: #FAAF3F;
+        cursor: default;
     }
     
     .series_section .section_btn span {
