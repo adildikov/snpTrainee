@@ -901,6 +901,16 @@ body {
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
 }
 
+.section .section__head span {
+    word-spacing: 9999999px;
+    font-family: "BrutalBold";
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
 .section .block_labels {
     top: 141px;
     left: 9.5px;
@@ -912,6 +922,10 @@ body {
     margin-top: 35px;
     margin-left: -10px;
     overflow: hidden;
+}
+
+.series .section_title {
+    display: none;
 }
 
 .series_head {
@@ -1285,6 +1299,16 @@ body {
         margin-left: 3px;
     }
     
+    .section .section__head span {
+        word-spacing: 9999999px;
+        font-family: "BrutalBold";
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
+    }
+
     .best_head {
         margin-left: 5px;
     }
@@ -1719,6 +1743,16 @@ body {
         margin-top: 25px;
     }
     
+    .section .section__head span {
+        word-spacing: 9999999px;
+        font-family: "BrutalBold";
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
+    }
+
     .section .block_labels {
         top: 141.5px;
         left: 10px;
@@ -2143,10 +2177,145 @@ body {
         color: #FFFFFF;
         text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
     }
+
+    .section .section__head span {
+        word-spacing: 0px;
+        font-family: "BrutalBold";
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
+    }
     
     .section .block_labels {
-        top: 141px;
-        left: 9.5px;
+        top: 152px;
+        left: 28px;
+    }
+
+    .main .series {
+        width: 320px;
+        height: 430px;
+        margin-top: 21px;
+    }
+    
+    .series_head,
+    .series_head .nav_arrows {
+        display: none;
+    }
+    
+    .series .section_title {
+        display: inline-flex;
+        width: 290px;
+    }
+
+    .section_title .side_head__name {
+        margin-top: 20px;
+    }
+
+    .section_title .side_head__other {
+        margin-top: 20px;
+        margin-left: 95px;
+    }
+
+    .series_content {
+        width: 350px;
+        height: 430px;
+        margin-top: 0px;
+        margin-left: -10px;
+        display: flex;
+    }
+    
+    .series_section {
+        min-width: 288px;
+        height: 412px;
+        margin-left: 35px;
+    }
+    
+    .series_section .section__head {
+        margin-left: 20px;
+        margin-top: 13px;
+    }
+    
+    .series_section .section_body {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 14px;
+        width: 260px;
+        height: 230px;
+    }
+    
+    .section_body .body_progress {
+        height: 220px;
+        overflow: hidden;
+    }
+    
+    .progress__circle1 {
+        top: 13px;
+    }
+    
+    .progress__circle2 {
+        top: 49px;
+    }
+    
+    .progress__circle3 {
+        top: 124px;
+    }
+    
+    .progress__circle4,
+    .progress__circle5 {
+        display: none;
+    }
+    
+    .progress__topline {
+        height: 10px;
+    }
+    
+    .progress__bottomline {
+        top: 180px;
+    }
+    
+    .body_items {
+        position: absolute;
+        left: 21px;
+        top: 8px;
+        width: 250px;
+        height: 220px;
+    }
+    
+    .body_item {
+        width: 203px;
+    }
+    
+    .body_item + .body_item {
+        margin-top: 15px;
+    }
+    
+    .body_item.first {
+        height: 19px;
+    }
+    
+    .body_item.second {
+        height: 63px;
+    }
+    
+    .body_item.third {
+        height: 86px;
+    }
+
+    .body_item.third.copy {
+        display: none;
+    }
+    
+    .series_section .section_btn {
+        margin-top: 9px;
+        margin-left: 20px;
+        width: 248px;
+    }
+    
+    .series_section .section_btn span {
+        margin-left: 66px;
+        padding-top: 7px;
     }
 }
 
