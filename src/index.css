@@ -417,21 +417,6 @@ body {
     background: linear-gradient(180.28deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 74.8%);
 }
 
-.content_progress__circle1 {
-    position: absolute;
-    top: 16px;
-}
-
-.content_progress__circle2 {
-    position: absolute;
-    top: 60px;
-}
-
-.content_progress__circle3 {
-    position: absolute;
-    top: 166px;
-}
-
 .side__btn {
     position: absolute;
     width: 214px;
@@ -1014,31 +999,6 @@ body {
     margin-left: 5px;
 }
 
-.progress__circle1 {
-    position: absolute;
-    top: 11px;
-}
-
-.progress__circle2 {
-    position: absolute;
-    top: 56px;
-}
-
-.progress__circle3 {
-    position: absolute;
-    top: 121px;
-}
-
-.progress__circle4 {
-    position: absolute;
-    top: 205px;
-}
-
-.progress__circle5 {
-    position: absolute;
-    top: 289px;
-}
-
 .progress__topline {
     position: absolute;
     width: 20px;
@@ -1069,6 +1029,17 @@ body {
     font-size: 15px;
     line-height: 21px;
     color: #333333;
+}
+
+.body_item::before {
+    content: "";
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -24px;
+    width: 10px;
+    height: 10px;
+    background-color: #828282;
+    border-radius: 5px;
 }
 
 .body_item span {
@@ -2304,6 +2275,11 @@ body {
     
     .body_item {
         width: 203px;
+    }
+
+    .body_item::before {
+        margin-top: 7px;
+        margin-left: -20px;
     }
     
     .body_item + .body_item {
