@@ -413,6 +413,19 @@ body {
     border-radius: 5px;
 }
 
+.sideSeries_body_content .content_items1:hover,
+.sideSeries_body_content .content_items2:hover,
+.sideSeries_body_content .content_items3:hover {
+    color: #FAAF3F;
+    cursor: pointer;
+}
+
+.sideSeries_body_content .content_items1:hover::before,
+.sideSeries_body_content .content_items2:hover::before,
+.sideSeries_body_content .content_items3:hover::before {
+    background-color: #FAAF3F;
+}
+
 .sideSeries_body_content .content_progress {
     position: absolute;
     top: 65px;
@@ -460,6 +473,11 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
+}
+
+.side__btn:hover {
+    background: #F49F21;
+    cursor: pointer;
 }
 
 .sideTests .side__btn {
