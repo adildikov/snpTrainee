@@ -357,7 +357,7 @@ body {
     font-size: 15px;
     line-height: 21px;
     margin-left: 20px;
-    margin-top: 24px;
+    margin-top: 23px;
     color: #333333;
 }
 
@@ -369,8 +369,21 @@ body {
     font-size: 15px;
     line-height: 21px;
     margin-left: 20px;
-    margin-top: 23px;
+    margin-top: 22px;
     color: #333333;
+}
+
+.sideSeries_body_content .content_items1::before,
+.sideSeries_body_content .content_items2::before,
+.sideSeries_body_content .content_items3::before {
+    content: "";
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -20px;
+    width: 10px;
+    height: 10px;
+    background-color: #828282;
+    border-radius: 5px;
 }
 
 .sideSeries_body_content .content_progress {
