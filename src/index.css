@@ -237,8 +237,19 @@ body {
 }
 
 .menu .menu__categories {
-    width: 54px;
+    width: 64px;
     height: 17px;
+}
+
+.menu .menu__news:hover,
+.menu .menu__video:hover,
+.menu .menu__tests:hover,
+.menu .menu__series:hover,
+.menu .menu__categories:hover {
+    color: #ffffff;
+    height: 23px;
+    background: #FAAF3F;
+    border-radius: 2px;
 }
 
 .menu .menu__search {
