@@ -1772,6 +1772,13 @@ body {
         background-image: url(./assets/bigSection_firstBlock768.png);
     }
     
+    .bigSection_firstBlock:hover .block__topleftAngle,
+    .bigSection_firstBlock:hover .block__toprightAngle,
+    .bigSection_firstBlock:hover .block__botleftAngle,
+    .bigSection_firstBlock:hover .block__botrightAngle {
+        opacity: 0;
+    }
+
     .block__label {
         top: 72px;
     }
@@ -1860,6 +1867,17 @@ body {
         top: 355.5px;
     }
     
+    .secondBlock_left:hover .block__topleftAngle,
+    .secondBlock_left:hover .block__toprightAngle,
+    .secondBlock_left:hover .block__botleftAngle,
+    .secondBlock_left:hover .block__botrightAngle,
+    .secondBlock_right:hover .block__topleftAngle,
+    .secondBlock_right:hover .block__toprightAngle,
+    .secondBlock_right:hover .block__botleftAngle,
+    .secondBlock_right:hover .block__botrightAngle {
+        opacity: 0;
+    }
+
     .bigSection__text {
         width: 738px;
         height: 70px;
@@ -1893,6 +1911,13 @@ body {
         display: flex;
         margin-left: 20px;
         margin-top: 25px;
+    }
+
+    .section:hover .block__topleftAngle,
+    .section:hover .block__toprightAngle,
+    .section:hover .block__botleftAngle,
+    .section:hover .block__botrightAngle {
+        opacity: 0;
     }
     
     .section .section__head span {
@@ -2125,6 +2150,13 @@ body {
         background-image: url(./assets/bigSection_firstBlock320.png);
     }
     
+    .bigSection_firstBlock:hover .block__topleftAngle,
+    .bigSection_firstBlock:hover .block__toprightAngle,
+    .bigSection_firstBlock:hover .block__botleftAngle,
+    .bigSection_firstBlock:hover .block__botrightAngle {
+        opacity: 0;
+    }
+
     .block__label {
         left: 14px;
         top: 114px;
@@ -2242,6 +2274,17 @@ body {
         top: 355px;
     }
     
+    .secondBlock_left:hover .block__topleftAngle,
+    .secondBlock_left:hover .block__toprightAngle,
+    .secondBlock_left:hover .block__botleftAngle,
+    .secondBlock_left:hover .block__botrightAngle,
+    .secondBlock_right:hover .block__topleftAngle,
+    .secondBlock_right:hover .block__toprightAngle,
+    .secondBlock_right:hover .block__botleftAngle,
+    .secondBlock_right:hover .block__botrightAngle {
+        opacity: 0;
+    }
+
     .bigSection__text {
         width: 320px;
         height: 190px;
@@ -2310,6 +2353,13 @@ body {
         margin-top: 22px;
     }
     
+    .section:hover .block__topleftAngle,
+    .section:hover .block__toprightAngle,
+    .section:hover .block__botleftAngle,
+    .section:hover .block__botrightAngle {
+        opacity: 0;
+    }
+
     .best_content .section {
         width: 250px;
         height: 177px;
