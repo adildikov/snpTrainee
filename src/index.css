@@ -502,8 +502,16 @@ body {
 }
 
 .sideTests_body_content {
+    position: relative;
     width: 215px;
     height: 238px;
+}
+
+.sideTests_body_content:hover .block__topleftAngle,
+.sideTests_body_content:hover .block__toprightAngle,
+.sideTests_body_content:hover .block__botleftAngle,
+.sideTests_body_content:hover .block__botrightAngle {
+    opacity: 1;
 }
 
 .sideTests_body_content .content__text {
@@ -550,6 +558,7 @@ body {
 }
 
 .sideVideo_body {
+    position: relative;
     width: 214px;
     height: 146px;
     margin-left: 20px;
@@ -557,7 +566,18 @@ body {
     background-image: url(./assets/side/sideVideos.png);
 }
 
-.sideVideo_body img {
+.sideVideo_body_content {
+    
+}
+
+.sideVideo_body:hover .block__topleftAngle,
+.sideVideo_body:hover .block__toprightAngle,
+.sideVideo_body:hover .block__botleftAngle,
+.sideVideo_body:hover .block__botrightAngle {
+    opacity: 1;
+}
+
+.sideVideo_body .playButton {
     margin-top: 57px;
     margin-left: 91px;
 }
@@ -661,6 +681,45 @@ body {
     width: 789px;
     height: 492px;
     background-image: url(./assets/bigSection_firstBlock.png);
+}
+
+.block__topleftAngle {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.block__toprightAngle {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.block__botleftAngle {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+}
+
+.block__botrightAngle {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.block__topleftAngle,
+.block__toprightAngle,
+.block__botleftAngle,
+.block__botrightAngle {
+    transition: 0.2s;
+    opacity: 0;
+}
+
+.bigSection_firstBlock:hover .block__topleftAngle,
+.bigSection_firstBlock:hover .block__toprightAngle,
+.bigSection_firstBlock:hover .block__botleftAngle,
+.bigSection_firstBlock:hover .block__botrightAngle {
+    opacity: 1;
 }
 
 .block__label {
@@ -800,6 +859,17 @@ body {
     background-image: url(./assets/secondBlock_right.png);
 }
 
+.secondBlock_left:hover .block__topleftAngle,
+.secondBlock_left:hover .block__toprightAngle,
+.secondBlock_left:hover .block__botleftAngle,
+.secondBlock_left:hover .block__botrightAngle,
+.secondBlock_right:hover .block__topleftAngle,
+.secondBlock_right:hover .block__toprightAngle,
+.secondBlock_right:hover .block__botleftAngle,
+.secondBlock_right:hover .block__botrightAngle {
+    opacity: 1;
+}
+
 .secondBlock_right .block__label{
     top: 85px;
     left: 20px;
@@ -937,6 +1007,13 @@ body {
 .section.third {
     position: relative;
     background-image: url(./assets/section3.png);
+}
+
+.section:hover .block__topleftAngle,
+.section:hover .block__toprightAngle,
+.section:hover .block__botleftAngle,
+.section:hover .block__botrightAngle {
+    opacity: 1;
 }
 
 .section .section__head {
