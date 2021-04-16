@@ -566,10 +566,6 @@ body {
     background-image: url(./assets/side/sideVideos.png);
 }
 
-.sideVideo_body_content {
-    
-}
-
 .sideVideo_body:hover .block__topleftAngle,
 .sideVideo_body:hover .block__toprightAngle,
 .sideVideo_body:hover .block__botleftAngle,
@@ -963,7 +959,7 @@ body {
     display: none;
 }
 
-.best_head__item.item_active {
+.best_head__item:hover {
     border-bottom: 2px solid #F7AB32;
 }
 
@@ -1575,7 +1571,7 @@ body {
         background-image: url(./assets/side/sideVideos1024.png);
     }
     
-    .sideVideo_body img {
+    .sideVideo_body .playButton {
         margin-top: 58.5px;
     }
     
@@ -1904,8 +1900,8 @@ body {
         margin-left: 45px;
     }
     
-    .best_head__item.item_active {
-        border-bottom: 4px solid #F7AB32;
+    .best_head__item:hover {
+        border-bottom: none;
     }
     
     .nav_arrows {
