@@ -650,6 +650,11 @@ body {
     color: #333333;
 }
 
+.sideNews .content__text:hover {
+    color: #FAAF3F;
+    cursor: pointer;
+}
+
 .main {
     width: 789px;
     height: 2110px;
