@@ -960,6 +960,7 @@ body {
 }
 
 .best_head__item:hover {
+    cursor: pointer;
     border-bottom: 2px solid #F7AB32;
 }
 
@@ -1901,6 +1902,7 @@ body {
     }
     
     .best_head__item:hover {
+        cursor: default;
         border-bottom: none;
     }
     
