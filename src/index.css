@@ -213,6 +213,7 @@ body {
     position: absolute;
     left: 46px;
     top: 17px;
+    cursor: pointer;
 }
 
 
@@ -267,6 +268,7 @@ body {
     position: absolute;
     left: 1173px;
     top: 17px;
+    cursor: pointer;
 }
 
 .menu .menu__search2 {
