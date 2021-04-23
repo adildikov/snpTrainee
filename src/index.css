@@ -1407,7 +1407,7 @@ body {
 
 @media screen and (max-width: 1530px) {
     .main {
-        margin-left: 3%;
+        margin-left: 2%;
     }
     
     .bigSection_firstBlock {
@@ -1445,7 +1445,110 @@ body {
 
 @media screen and (max-width: 1440px) {
     .wrapper {
-        margin-left: 120px;
+        width: 84.3%;
+        height: 2338px;
+        margin-left: 8.4%;
+    }
+    
+    .banner .banner_logo {
+        width: 370px;
+        margin-left: 3.9%;
+    }
+    
+    .banner .banner_content {
+        width: 54.6%;
+        margin-left: 4.7%;
+    }
+    
+    .banner__btn a {
+        left: 95.2%;
+    }
+    
+    .menu .menu__search {
+        margin-left: 48.9%;
+    }
+    
+    .sideSeries {
+        left: 881px;
+    }
+    
+    .side__btn {
+        padding-top: 7px;
+    }
+
+    .sideTests .side__btn {
+        bottom: 23px;
+    }
+    
+    .sideTests {
+        left: 881px;
+    }
+    
+    .sideVideo {
+        left: 881px;
+    }
+    
+    .sideNews {
+        left: 881px;
+    }
+    
+    .main {
+        width: 789px;
+        margin-left: 6%;
+    }
+    
+    .bigSection_firstBlock {
+        width: 789px;
+    }
+    
+    .block__head {
+        width: 558px;
+    }
+    
+    .block__content {
+        width: 720px;
+    }
+    
+    .block__inscription span {
+        font-family: "PTSansRegular";
+        font-size: 10px;
+        margin-left: -1px;
+    }
+    
+    .block_labels {
+        left: 590px;
+    }
+    
+    .bigSection_secondBlock {
+        width: 789px;
+    }
+    
+    .bigSection__text {
+        width: 791px;
+    }
+    
+    .nav_arrows {
+        margin-left: 248px;
+    }
+    
+    .best_content {
+        width: 108%;
+    }
+    
+    .main .series {
+        width: 810px;
+    }
+    
+    .series_head .nav_arrows {
+        margin-left: 663px;
+    }
+    
+    .series_section {
+        min-width: 380px;
+    }
+    
+    .series_section + .series_section {
+        margin-left: 29px;
     }
 }
 
