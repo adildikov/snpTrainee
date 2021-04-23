@@ -1303,6 +1303,146 @@ body {
     }
 }
 
+@media screen and (max-width: 1700px) {
+    .wrapper {
+        width: 73%;
+        margin-left: 12.85%;
+    }
+
+    .banner .banner_logo {
+        width: 340px;
+        height: 80px;
+        margin-left: 3.9%;
+        margin-top: 48px;
+    }
+    
+    .banner_logo .logo_name {
+        position: absolute;
+        top: 69px;
+        height: 40px;
+    }
+
+    .banner__btn a {
+        left: 94.2%;
+    }
+
+    .menu .menu__search {
+        margin-left: 46%;
+    }
+
+    .main {
+        margin-left: 5%;
+    }
+    
+    .bigSection_firstBlock {
+        width: 100%;
+    }
+    
+    .bigSection_secondBlock {
+        width: 100%;
+    }
+    
+    .bigSection__text {
+        width: 100%;
+    }
+
+    .best {
+        width: 100%;
+    }
+    
+    .nav_arrows {
+        margin-left: 190px;
+    }
+    
+    .main .series {
+        width: 100%;
+    }
+    
+    .series_section + .series_section {
+        margin-left: 40px;
+    }
+
+    .series_head .nav_arrows {
+        margin-left: 605px;
+    }
+}
+
+@media screen and (max-width: 1630px) {
+    .main {
+        margin-left: 6%;
+    }
+    
+    .bigSection_firstBlock {
+        width: 95%;
+    }
+    
+    .bigSection_secondBlock {
+        width: 95%;
+    }
+    
+    .bigSection__text {
+        width: 95%;
+    }
+
+    .best {
+        width: 95%;
+    }
+    
+    .nav_arrows {
+        margin-left: 190px;
+    }
+    
+    .main .series {
+        width: 95%;
+    }
+    
+    .series_section + .series_section {
+        margin-left: 20px;
+    }
+
+    .series_head .nav_arrows {
+        margin-left: 605px;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    .main {
+        margin-left: 3%;
+    }
+    
+    .bigSection_firstBlock {
+        width: 93%;
+    }
+    
+    .bigSection_secondBlock {
+        width: 93%;
+    }
+    
+    .bigSection__text {
+        width: 93%;
+    }
+
+    .best {
+        width: 93%;
+    }
+    
+    .nav_arrows {
+        margin-left: 190px;
+    }
+    
+    .main .series {
+        width: 94.5%;
+    }
+    
+    .series_section + .series_section {
+        margin-left: 20px;
+    }
+
+    .series_head .nav_arrows {
+        margin-left: 605px;
+    }
+}
+
 @media screen and (max-width: 1440px) {
     .wrapper {
         margin-left: 120px;
