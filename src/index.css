@@ -655,7 +655,7 @@ body {
 .main {
     width: 789px;
     height: 2110px;
-    margin-left: 72px;
+    margin-left: 6%;
 }
 
 .main__head {
@@ -673,7 +673,7 @@ body {
 .main_bigSection {
     position: relative;
     margin-top: 39px;
-    width: 789px;
+    width: 100%;
     height: 1120px;
     color: #ffffff;
 }
@@ -1225,6 +1225,83 @@ body {
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 1850px) {
+    .main {
+        margin-left: 3%;
+    }
+    
+    .bigSection_firstBlock {
+        width: 95%;
+    }
+    
+    .block__head {
+        width: 90%;
+    }
+    
+    .block__content {
+        position: absolute;
+        width: 95%;
+    }
+    
+    .block_labels {
+        position: absolute;
+        left: 70%;
+    }
+    
+    .bigSection_secondBlock {
+        width: 95%;
+    }
+    
+    .bigSection__text {
+        width: 95%;
+    }
+
+    .best {
+        width: 95%;
+    }
+    
+    .nav_arrows {
+        display: flex;
+        margin-top: 16px;
+        margin-left: 200px;
+    }
+    
+    .main .series {
+        width: 95%;
+    }
+    
+    .series_head .nav_arrows {
+        margin-left: 610px;
+    }
+    
+    .series_section {
+        min-width: 355px;
+    }
+    
+    .series_section + .series_section {
+        margin-left: 23px;
+    }
+    
+    .sideSeries {
+        left: 75%;
+        margin-right: 15px;
+    }
+    
+    .sideTests {
+        left: 75%;
+        margin-right: 15px;
+    }
+
+    .sideVideo {
+        left: 75%;
+        margin-right: 15px;
+    }
+    
+    .sideNews {
+        left: 75%;
+        margin-right: 15px;
+    }
+}
 
 @media screen and (max-width: 1440px) {
     .wrapper {
