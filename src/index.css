@@ -1083,6 +1083,10 @@ body {
     display: flex;
 }
 
+.series_section.third {
+    display: none;
+}
+
 .series_section {
     position: relative;
     min-width: 380px;
@@ -1549,6 +1553,299 @@ body {
     
     .series_section + .series_section {
         margin-left: 29px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .main {
+        margin-left: 3%;
+    }
+
+    .sideSeries {
+        left: 75%;
+        margin-right: 15px;
+    }
+    
+    .sideTests {
+        left: 75%;
+        margin-right: 15px;
+    }
+
+    .sideVideo {
+        left: 75%;
+        margin-right: 15px;
+    }
+    
+    .sideNews {
+        left: 75%;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .main {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 1325px) {
+    .bigSection_firstBlock {
+        width: 98%;
+    }
+    
+    .bigSection_secondBlock {
+        width: 98%;
+    }
+    
+    .bigSection__text {
+        width: 98%;
+    }
+
+    .best {
+        width: 90.5%;
+    }
+    
+    .nav_arrows {
+        margin-left: 190px;
+    }
+    
+    .main .series {
+        width: 101%;
+    }
+    
+    .series_section + .series_section {
+        margin-left: 20px;
+    }
+
+    .series_head .nav_arrows {
+        margin-left: 605px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .wrapper {
+        width: 85%;
+        margin-left: 8%;
+    }
+
+    .menu .menu__search {
+        margin-left: 43.9%;
+    }
+
+    .bigSection_firstBlock {
+        width: 94%;
+    }
+    
+    .block__head {
+        width: 90%;
+    }
+    
+    .block__content {
+        position: absolute;
+        width: 95%;
+    }
+    
+    .block_labels {
+        position: absolute;
+        left: 70%;
+    }
+
+    .bigSection_secondBlock {
+        width: 94%;
+    }
+    
+    .bigSection__text {
+        width: 94%;
+    }
+
+    .best {
+        width: 87%;
+    }
+    
+    .nav_arrows {
+        margin-left: 190px;
+    }
+    
+    .main .series {
+        width: 95%;
+    }
+
+    .series_section {
+        min-width: 360px;
+    }
+
+    .series_section + .series_section {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .wrapper {
+        width: 93%;
+        margin-left: 4%;
+    }
+
+    .bigSection_firstBlock {
+        width: 100%;
+    }
+
+    .bigSection_secondBlock {
+        width: 100%;
+    }
+    
+    .bigSection__text {
+        width: 100%;
+    }
+
+    .best {
+        width: 100%;
+    }
+    
+    .nav_arrows {
+        margin-left: 240px;
+    }
+    
+    .main .series {
+        width: 100%;
+    }
+
+    .series_section {
+        min-width: 370px;
+    }
+
+    .series_section + .series_section {
+        margin-left: 30px;
+    }
+
+    .series_head .nav_arrows {
+        margin-left: 650px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 100%;
+        margin-left: 0%;
+        overflow: hidden;
+    }
+
+    .bigSection_firstBlock {
+        width: 100%;
+    }
+
+    .bigSection_secondBlock {
+        width: 100%;
+    }
+    
+    .bigSection__text {
+        width: 100%;
+    }
+
+    .best {
+        width: 100%;
+    }
+    
+    .nav_arrows {
+        margin-left: 240px;
+    }
+    
+    .main .series {
+        width: 100%;
+    }
+
+    .series_section {
+        min-width: 370px;
+    }
+
+    .series_section + .series_section {
+        margin-left: 30px;
+    }
+
+    .series_head .nav_arrows {
+        margin-left: 650px;
+    }
+}
+
+
+@media screen and (max-width: 1110px) {
+
+    .bigSection_firstBlock {
+        width: 96%;
+    }
+
+    .bigSection_secondBlock {
+        width: 96%;
+    }
+    
+    .bigSection__text {
+        width: 96%;
+    }
+
+    .best {
+        width: 89%;
+    }
+    
+    .nav_arrows {
+        margin-left: 210px;
+    }
+    
+    .main .series {
+        width: 96%;
+    }
+
+    .series_section {
+        min-width: 350px;
+    }
+
+    .series_section + .series_section {
+        margin-left: 30px;
+    }
+
+    .series_head .nav_arrows {
+        margin-left: 620px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .main {
+        margin-left: 1%;
+    }
+
+    .bigSection_firstBlock {
+        width: 92.8%;
+    }
+
+    .bigSection_secondBlock {
+        width: 92.8%;
+    }
+    
+    .bigSection__text {
+        width: 92.8%;
+    }
+
+    .best {
+        width: 86%;
+    }
+    
+    .nav_arrows {
+        margin-left: 180px;
+    }
+    
+    .main .series {
+        width: 95%;
+    }
+
+    .series_section {
+        min-width: 350px;
+    }
+
+    .series_section + .series_section {
+        margin-left: 20px;
+    }
+
+    .series_head .nav_arrows {
+        margin-left: 590px;
     }
 }
 
