@@ -11,9 +11,9 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    width: 63%;
     height: 2338px;
-    margin-left: 359px;
+    margin-left: 18.85%;
     position: relative;
     background-color: #ffffff;
 }
@@ -21,6 +21,7 @@ body {
 .head .banner {
     height: 173px;
     background: linear-gradient(360deg, #223036 0%, #223036 100%);
+    display: flex;
 }
 
 .banner .banner__menu {
@@ -32,16 +33,15 @@ body {
 }
 
 .banner .banner_logo {
-    position: absolute;
     width: 370px;
     height: 80px;
-    left: 47px;
-    top: 48px;
+    margin-left: 3.9%;
+    margin-top: 48px;
 }
 
 .banner_logo .logo_name {
     position: absolute;
-    top: 21px;
+    top: 69px;
     height: 40px;
 }
 
@@ -156,11 +156,10 @@ body {
 }
 
 .banner .banner_content {
-    position: absolute;
-    width: 658px;
+    width: 54.6%;
     height: 87px;
-    left: 474px;
-    top: 43px;
+    margin-left: 4.7%;
+    margin-top: 43px;
 }
 
 .banner_content span {
@@ -178,7 +177,7 @@ body {
     position: absolute;
     width: 40px;
     height: 13px;
-    left: 1141px;
+    left: 95.2%;
     top: 14px;
     font-family: "PTSansBold";
     font-size: 15px;
@@ -265,9 +264,9 @@ body {
 }
 
 .menu .menu__search {
-    position: absolute;
-    left: 1173px;
-    top: 17px;
+    margin-left: 48.9%;
+    margin-top: 17px;
+    margin-right: 10px;
     cursor: pointer;
 }
 
