@@ -1851,7 +1851,7 @@ body {
 
 @media screen and (max-width: 1024px) {
     .wrapper {
-        width: 1024px;
+        width: 100%;
         margin-left: 0px;
     }
 
@@ -1860,7 +1860,7 @@ body {
     }
 
     .banner .banner_logo {
-        left: 32px;
+        margin-left: 32px;
     }
 
     .banner .banner_logoMini {
@@ -1869,8 +1869,8 @@ body {
 
     .banner .banner_content {
         width: 550px;
-        top: 36px;
-        left: 424.5px;
+        margin-top: 36px;
+        margin-left: 23px;
     }
 
     .banner .banner_content span span{
@@ -1882,19 +1882,12 @@ body {
     }
 
     .banner__btn a {
-        position: absolute;
         width: 40px;
         height: 13px;
-        left: 969px;
-        top: 16px;
-        font-family: "PTSansBold";
-        font-size: 15px;
-        line-height: 10px;
-        align-items: center;
-        text-align: right;
-        text-decoration: none;
+        margin-left: 10px;
+        margin-top: 2px;
     }
-    
+
     .menu .menu__hide {
         left: 39px;
     }
@@ -1904,11 +1897,10 @@ body {
         height: 28px;
         margin-left: 71px;
     }
-    
+
     .menu .menu__search {
-        position: absolute;
-        left: 989px;
-        top: 17px;
+        margin-left: auto;
+        margin-right: 2px;
     }
 
     .menu .menu__search2 {
@@ -1916,7 +1908,7 @@ body {
     }
 
     .main {
-        width: 730px;
+        width: 100%;
         margin-left: 12px;
     }
     
@@ -1927,13 +1919,11 @@ body {
     
     .main_bigSection {
         margin-top: 43px;
-        width: 750px;
+        width: 72.5%;
     }
     
     .bigSection_firstBlock {
-        margin-top: 20px;
-        width: 730px;
-        height: 492px;
+        width: 100%;
         background-image: url(./assets/bigSection_firstBlock1024.png);
     }
     
