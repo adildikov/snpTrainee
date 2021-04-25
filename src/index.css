@@ -1927,14 +1927,15 @@ body {
         background-image: url(./assets/bigSection_firstBlock1024.png);
     }
     
-    .block__content {
-        width: 692px;
-        top: 319px;
+    .block__head {
+        position: absolute;
+        width: 558px;
+        height: 83px;
+        top: 214px;
         left: 20px;
     }
 
     .block__content span {
-        font-family: "PTSansRegular";
         font-size: 18px;
         line-height: 24px;
         white-space: nowrap;
@@ -1943,28 +1944,24 @@ body {
     .block__inscription {
         display: flex;
         position: absolute;
-        width: 294px;
-        height: 23px;
         left: 20px;
         top: 436px;
-        
-        font-family: "PTSansBold";
-        font-size: 15px;
-        line-height: 24px;
     }
     
     .block__inscription span {
         margin-left: 2px;
         margin-top: 2px;
-        font-family: "PTSansRegular";
-        font-size: 10px;
     }
     
     .block_labels {
-        left: 532px;
+        left: 73%;
         top: 440px;
     }
     
+    .bigSection_secondBlock {
+        width: 100%;
+    }
+
     .secondBlock_left {
         width: 354px;
         height: 492px;
@@ -1999,10 +1996,11 @@ body {
     }
     
     .bigSection__text {
-        width: 732px;
+        width: 100%;
     }
     
     .best {
+        width: 73%;
         overflow: hidden;
     }
 
@@ -2071,13 +2069,14 @@ body {
         width: 750px;
         height: 530px;
         margin-top: 21px;
-        margin-left: 9px;
+        margin-left: 4px;
         overflow: hidden;
     }
 
     .series_section {
         min-width: 352px;
         margin-top: 5px;
+        margin-left: 5px;
     }
 
     .series_section + .series_section {
@@ -2110,7 +2109,7 @@ body {
     }
 
     .sideSeries {
-        left: 762px;
+        left: 75.7%;
         top: 319px;
     }
     
@@ -2122,6 +2121,10 @@ body {
         top: 52px;
     }
     
+    .sideSeries_body_content .content_items2 {
+        margin-top: 24px;
+    }
+
     .side__btn {
         padding-left: 2px;
         padding-top: 7px;
@@ -2139,7 +2142,7 @@ body {
     }
     
     .sideTests {
-        left: 762px;
+        left: 75.7%;
         top: 780px;
     }
 
@@ -2163,7 +2166,7 @@ body {
     }
 
     .sideVideo {
-        left: 762px;
+        left: 75.7%;
         top: 1172px;
         width: 251px;
         height: 273px;
@@ -2190,7 +2193,7 @@ body {
     }
 
     .sideNews {
-        left: 762px;
+        left: 75.7%;
         top: 1462px;
         height: 229px;
     }
@@ -2200,7 +2203,7 @@ body {
     }
     
     .content__date {
-        margin-left: 1px;
+        margin-left: 0px;
         margin-top: 19.5px;
     }
     
