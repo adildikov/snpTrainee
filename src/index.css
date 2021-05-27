@@ -3301,6 +3301,133 @@ body {
     }
 }
 
+@media screen and (max-width: 560px) {
+    .menu .menu__news {
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .menu .menu__news {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .menu .menu__news {
+        margin-left: 2%;
+    }
+    
+    .menu .menu__video {
+        margin-left: 3%;
+    }
+    
+    .menu .menu__tests {
+        margin-left: 4%;
+    }
+    
+    .menu .menu__series {
+        margin-left: 4%;
+    }
+    
+    .menu .menu__categories {
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .menu .menu__news {
+        margin-left: 0;
+    }
+    
+    .menu .menu__categories {
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
+    .menu .menu__video {
+        margin-left: 2%;
+    }
+    
+    .menu .menu__tests {
+        margin-left: 2%;
+    }
+    
+    .menu .menu__series {
+        margin-left: 2%;
+    }
+    
+    .menu .menu__categories {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    
+    .menu .menu__video {
+        margin-left: 0;
+    }
+    
+    .menu .menu__tests {
+        margin-left: 0;
+    }
+    
+    .menu .menu__series {
+        margin-left: 0;
+    }
+    
+    .menu .menu__categories {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .banner .banner__search {
+        left: 80%;
+    }
+    
+    .banner__btn a {
+        left: 85%;
+    }
+
+    .menu .menu__video {
+        margin-left: -2%;
+    }
+    
+    .menu .menu__tests {
+        margin-left: -2%;
+    }
+    
+    .menu .menu__series {
+        margin-left: -2%;
+    }
+    
+    .menu .menu__categories {
+        margin-left: -2%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+    .menu .menu__video {
+        margin-left: -4%;
+    }
+    
+    .menu .menu__tests {
+        margin-left: -4%;
+    }
+    
+    .menu .menu__series {
+        margin-left: -4%;
+    }
+    
+    .menu .menu__categories {
+        margin-left: -4%;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .wrapper {
         width: 320px;
