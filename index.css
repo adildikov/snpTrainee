@@ -296,7 +296,7 @@ body {
     font-size: 14px;
     line-height: 18px;
     padding-left: 1px;
-    padding-top: 2px;
+    padding-top: 3px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
@@ -738,7 +738,7 @@ body {
     width: 118px;
     height: 11px;
     padding-left: 11px;
-    padding-top: 2px;
+    padding-top: 3px;
     font-family: "BrutalMedium";
     display: flex;
     font-size: 14px;
