@@ -263,10 +263,12 @@ body {
     margin-top: 17px;
     margin-right: 10px;
     cursor: pointer;
+    text-align: center;
 }
 
 .menu .menu__search2 {
     display: none;
+    text-align: center;
 }
 
 .sideSeries {
@@ -2345,8 +2347,8 @@ body {
         width: 63px;
         margin-top: 10px;
         margin-left: 9%;
-        padding-left: 9px;
-        padding-top: 3px;
+        text-align: center;
+        line-height: 28px;
     }
 
     .menu .menu__news:hover,
@@ -2749,8 +2751,8 @@ body {
         width: 63px;
         margin-top: 10px;
         margin-left: 73px;
-        padding-left: 9px;
-        padding-top: 3px;
+        text-align: center;
+        line-height: 28px;
     }
     
     .main {
