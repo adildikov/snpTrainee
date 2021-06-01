@@ -189,7 +189,6 @@ body {
 
 .head .menu {
     position: relative;
-    margin-top: 1px;
     height: 48px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -201,7 +200,7 @@ body {
 
     font-family: "BrutalRegular";
     font-size: 16px;
-    line-height: 21px;
+    line-height: 28px;
     text-decoration: none;
 
     letter-spacing: -0.02em;
@@ -220,36 +219,32 @@ body {
     width: 86px;
     height: 28px;
     margin-left: 90px;
-    padding-left: 13px;
-    padding-top: 3px;
+    text-align: center;
+    
 }
 
 .menu .menu__video {
     width: 76px;
     height: 28px;
-    padding-left: 12px;
-    padding-top: 3px;
+    text-align: center;
 }
 
 .menu .menu__tests {
     width: 69px;
     height: 28px;
-    padding-left: 11px;
-    padding-top: 3px;
+    text-align: center;
 }
 
 .menu .menu__series {
     width: 73px;
     height: 28px;
-    padding-left: 10px;
-    padding-top: 3px;
+    text-align: center;
 }
 
 .menu .menu__categories {
     width: 82px;
     height: 28px;
-    padding-left: 9px;
-    padding-top: 3px;
+    text-align: center;
 }
 
 .menu .menu__news:hover,
