@@ -2918,8 +2918,11 @@ body {
     }
     
     .bigSection_firstBlock {
+        background-image: url(./assets/bigSection_firstBlock.png);
+        background-size: cover;
+        background-position: center;
         width: 100%;
-        height: 386px;
+        max-height: 386px;
     }
     
     .bigSection_firstBlock:hover .block__topleftAngle,
@@ -2977,8 +2980,11 @@ body {
     }
     
     .secondBlock_left {
+        background-image: url(./assets/secondBlock_left768.png);
+        background-size: cover;
+        background-position: top;
         width: 100%;
-        height: 386px;
+        max-height: 386px;
     }
     
     .secondBlock_left .block__label {
@@ -3011,8 +3017,11 @@ body {
     }
     
     .secondBlock_right {
+        background-image: url(./assets/secondBlock_right768.png);
+        background-size: cover;
+        background-position: top;
         width: 100%;
-        height: 386px;
+        max-height: 386px;
     }
     
     .secondBlock_right .block__label{
