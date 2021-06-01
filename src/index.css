@@ -2858,7 +2858,7 @@ body {
     
         font-family: "PTSansCaptionRegular";
         font-size: 14px;
-        line-height: 22px;
+        line-height: 30px;
         letter-spacing: -0.02em;
         color: #000000;
     }
@@ -2867,7 +2867,7 @@ body {
         width: 60px;
         height: 30px;
         margin-left: 6%;
-        margin-top: 9px;
+        text-align: center;
     }
     
     .menu .menu__video {
