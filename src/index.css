@@ -35,8 +35,7 @@ body {
 .banner .banner_logo {
     width: 370px;
     height: 80px;
-    margin-left: 3.9%;
-    margin-top: 48px;
+    margin: 48px 0 0 3.9%;
 }
 
 .banner_logo .logo_name {
@@ -158,8 +157,7 @@ body {
 .banner .banner_content {
     width: 54.6%;
     height: 87px;
-    margin-left: 4.7%;
-    margin-top: 43px;
+    margin: 43px 0 0 4.7%;
 }
 
 .banner_content span {
@@ -208,9 +206,17 @@ body {
 }
 
 .menu .menu__hide {
+    position: relative;
+    margin: 17px 0 0 46px;
+}
+
+.menu .menu__hide:after {
+    content: '';
     position: absolute;
-    left: 46px;
-    top: 17px;
+    top: -10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
     cursor: pointer;
 }
 
@@ -218,7 +224,7 @@ body {
 .menu .menu__news {
     width: 86px;
     height: 28px;
-    margin-left: 90px;
+    margin-left: 44px;
     text-align: center;
     
 }
@@ -259,11 +265,21 @@ body {
 }
 
 .menu .menu__search {
+    position: relative;
     margin-left: 48.9%;
     margin-top: 17px;
     margin-right: 10px;
-    cursor: pointer;
     text-align: center;
+}
+
+.menu .menu__search:after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    cursor: pointer;
 }
 
 .menu .menu__search2 {
@@ -969,14 +985,36 @@ body {
 }
 
 .nav_arrows__arrleft {
+    position: relative;
     width: 13px;
     height: 13px;
 }
 
+.nav_arrows__arrleft:after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    cursor: pointer;
+}
+
 .nav_arrows__arrright {
+    position: relative;
     width: 13px;
     height: 13px;
     margin-left: 22.5px;
+}
+
+.nav_arrows__arrright:after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    cursor: pointer;
 }
 
 .best_content {
