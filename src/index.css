@@ -266,19 +266,17 @@ body {
 
 .menu .menu__search {
     position: relative;
-    margin-left: 48.9%;
-    margin-top: 17px;
-    margin-right: 10px;
+    margin: 17px 10px 0 48.9%;
     text-align: center;
 }
 
 .menu .menu__search:after {
     content: '';
     position: absolute;
-    top: -5px;
-    bottom: -5px;
-    left: -5px;
-    right: -5px;
+    top: -10px;
+    bottom: 0px;
+    left: -10px;
+    right: -10px;
     cursor: pointer;
 }
 
@@ -300,16 +298,14 @@ body {
 .side_head__name {
     width: 92px;
     height: 24px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px 0 0 20px;
     background: #333333;
     border-radius: 2px;
     
     font-family: "BrutalRegular";
     font-size: 14px;
     line-height: 18px;
-    padding-left: 1px;
-    padding-top: 3px;
+    padding: 3px 0 0 1px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
@@ -365,8 +361,7 @@ body {
 }
 
 .sideSeries_body__head {
-    margin-left: 20px;
-    margin-top: 3px;
+    margin: 3px 0 0 20px;
     font-family: "BrutalBold";
     font-size: 20px;
     line-height: 24px;
@@ -385,8 +380,7 @@ body {
     font-weight: normal;
     font-size: 15px;
     line-height: 21px;
-    margin-left: 20px;
-    margin-top: 25px;
+    margin: 25px 0 0 20px;
     color: #333333;
 }
 
@@ -397,8 +391,7 @@ body {
     font-weight: normal;
     font-size: 15px;
     line-height: 21px;
-    margin-left: 20px;
-    margin-top: 23px;
+    margin: 23px 0 0 20px;
     color: #333333;
 }
 
@@ -409,8 +402,7 @@ body {
     font-weight: normal;
     font-size: 15px;
     line-height: 21px;
-    margin-left: 20px;
-    margin-top: 22px;
+    margin: 22px 0 0 20px;
     color: #333333;
 }
 
@@ -508,8 +500,7 @@ body {
 }
 
 .sideTests .sideTests_body {
-    margin-top: 16.5px;
-    margin-left: 19px;
+    margin: 16.5px 0 0 19px;
     width: 215px;
     height: 238px;
     background-image: url(./assets/side/sideTests.png);
@@ -542,8 +533,7 @@ body {
 
 .content_labels {
     display: flex;
-    margin-left: 10px;
-    margin-top: 68px;
+    margin: 68px 0 0 10px;
 }
 
 .labels__item {
@@ -575,8 +565,7 @@ body {
     position: relative;
     width: 214px;
     height: 146px;
-    margin-left: 20px;
-    margin-top: 24px;
+    margin: 24px 0 0 20px;
     background-image: url(./assets/side/sideVideos.png);
 }
 
@@ -588,8 +577,7 @@ body {
 }
 
 .sideVideo_body .playButton {
-    margin-top: 57px;
-    margin-left: 91px;
+    margin: 57px 0 0 91px;
 }
 
 .sideVideo__text {
@@ -598,8 +586,7 @@ body {
     font-weight: bold;
     font-size: 15px;
     line-height: 21px;
-    margin-left: 21px;
-    margin-top: 16px;
+    margin: 16px 0 0 21px;
     
     color: #333333;
 }
@@ -625,8 +612,7 @@ body {
 }
 
 .content__date {
-    margin-left: 1px;
-    margin-top: 17px;
+    margin: 17px 0 0 1px;
     font-family: "PTSansRegular";
     font-style: normal;
     font-weight: bold;
@@ -677,8 +663,7 @@ body {
     font-weight: normal;
     font-size: 28px;
     line-height: 22px;
-    margin-left: -2px;
-    margin-top: 38px;
+    margin: 38px 0 0 -2px;
     letter-spacing: -0.02em;
     color: #000000;
 }
@@ -750,8 +735,7 @@ body {
 .block__label span {
     width: 118px;
     height: 11px;
-    padding-left: 11px;
-    padding-top: 3px;
+    padding: 3px 0 0 11px;
     font-family: "BrutalMedium";
     display: flex;
     font-size: 14px;
@@ -915,8 +899,7 @@ body {
 .bigSection__text {
     width: 791px;
     height: 66px;
-    margin-top: 28px;
-    margin-left: -2px;
+    margin: 28px 0 0 -2px;
 }
 
 .bigSection__text span {
@@ -940,8 +923,7 @@ body {
 
 .best_head__item {
     height: 29px;
-    margin-left: -1px;
-    margin-top: 15px;
+    margin: 15px 0 0 -1px;
     font-family: "PTSansBold";
     font-size: 17px;
     line-height: 24px;
@@ -980,8 +962,7 @@ body {
 
 .nav_arrows {
     display: flex;
-    margin-top: 16px;
-    margin-left: 248px;
+    margin: 16px 0 0 248px;
 }
 
 .nav_arrows__arrleft {
@@ -1019,8 +1000,7 @@ body {
 
 .best_content {
     display: flex;
-    margin-left: -1px;
-    margin-top: 23px;
+    margin: 23px 0 0 -1px;
 }
 
 .best_content .section {
@@ -1083,8 +1063,7 @@ body {
 .main .series {
     width: 810px;
     height: 600px;
-    margin-top: 35px;
-    margin-left: -10px;
+    margin: 35px 0 0 -10px;
     overflow: hidden;
 }
 
@@ -1094,14 +1073,12 @@ body {
 
 .series_head {
     height: 39px;
-    margin-top: 3px;
-    margin-left: 8px;
+    margin: 3px 0 0 8px;
     display: inline-flex;
 }
 
 .series_head .nav_arrows {
-    margin-top: 1px;
-    margin-left: 663px;
+    margin: 1px 0 0 663px;
 }
 
 .series_head .head__text{
@@ -1113,8 +1090,7 @@ body {
 }
 
 .series_content {
-    margin-top: 22px;
-    margin-left: 9px;
+    margin: 22px 0 0 9px;
     display: flex;
 }
 
@@ -1135,8 +1111,7 @@ body {
 }
 
 .series_section .section__head {
-    margin-left: 21px;
-    margin-top: 21px;
+    margin: 21px 0 0 21px;
     width: 250px;
     height: 46px;
     
@@ -1147,8 +1122,7 @@ body {
 }
 
 .series_section .section_body {
-    margin-top: 20px;
-    margin-left: 16px;
+    margin: 20px 0 0 16px;
     width: 340px;
     height: 370px;
 }
@@ -1198,8 +1172,7 @@ body {
 .body_item::before {
     content: "";
     position: absolute;
-    margin-top: 7px;
-    margin-left: -24px;
+    margin: 7px 0 0 -24px;
     width: 10px;
     height: 10px;
     background-color: #828282;
@@ -1301,8 +1274,7 @@ body {
     
     .nav_arrows {
         display: flex;
-        margin-top: 16px;
-        margin-left: 200px;
+        margin: 16px 0 0 200px;
     }
     
     .main .series {
@@ -1351,8 +1323,7 @@ body {
     .banner .banner_logo {
         width: 340px;
         height: 80px;
-        margin-left: 3.9%;
-        margin-top: 48px;
+        margin: 48px 0 0 3.9%;
     }
     
     .banner_logo .logo_name {
@@ -1904,8 +1875,7 @@ body {
 
     .banner .banner_content {
         width: 550px;
-        margin-top: 36px;
-        margin-left: 23px;
+        margin: 36px 0 0 23px;
     }
 
     .banner .banner_content span span{
@@ -1919,8 +1889,7 @@ body {
     .banner__btn a {
         width: 40px;
         height: 13px;
-        margin-left: -5px;
-        margin-top: 2px;
+        margin: 2px 0 0 -5px;
     }
 
     .menu .menu__hide {
@@ -1934,8 +1903,7 @@ body {
     }
 
     .menu .menu__search {
-        margin-left: auto;
-        margin-right: 18px;
+        margin: 0 18px 0 auto;
     }
 
     .menu .menu__search2 {
@@ -1948,8 +1916,7 @@ body {
     }
     
     .main__head {
-        margin-left: -2px;
-        margin-top: 29px;
+        margin: 29px 0 0 -2px;
     }
     
     .main_bigSection {
@@ -1984,8 +1951,7 @@ body {
     }
     
     .block__inscription span {
-        margin-left: 2px;
-        margin-top: 2px;
+        margin: 2px 0 0 2px;
     }
     
     .block_labels {
@@ -2041,13 +2007,11 @@ body {
 
     .best_head__item {
         height: 32px;
-        margin-left: -2px;
-        margin-top: 12px;
+        margin: 12px 0 0 -2px;
     }
     
     .best_head__item + .best_head__item {
-        margin-top: 14px;
-        margin-left: 55px;
+        margin: 14px 0 0 55px;
     }
     
     .best_head__item.third {
@@ -2103,15 +2067,13 @@ body {
     .series_content {
         width: 750px;
         height: 530px;
-        margin-top: 21px;
-        margin-left: 4px;
+        margin: 21px 0 0 4px;
         overflow: hidden;
     }
 
     .series_section {
         min-width: 352px;
-        margin-top: 5px;
-        margin-left: 5px;
+        margin: 5px 0 0 5px;
     }
 
     .series_section + .series_section {
@@ -2161,15 +2123,13 @@ body {
     }
 
     .side__btn {
-        padding-left: 2px;
-        padding-top: 7px;
+        padding: 7px 0 0 2px;
     }
 
     .sideTests .side_head__other {
         width: 59px;
         height: 24px;
-        margin-left: 176px;
-        margin-top: -25px;
+        margin: -25px 0 0 176px;
     }
 
     .sideTests .side__btn {
@@ -2190,8 +2150,7 @@ body {
     }
 
     .sideTests .sideTests_body {
-        margin-top: 19px;
-        margin-left: 19px;
+        margin: 19px 0 0 19px;
     }
 
     .sideVideo .side_head__other {
@@ -2223,8 +2182,7 @@ body {
     }
     
     .sideVideo__text {
-        margin-left: 20px;
-        margin-top: 17px;
+        margin: 17px 0 0 20px;
     }
 
     .sideNews {
@@ -2238,13 +2196,11 @@ body {
     }
     
     .content__date {
-        margin-left: 0px;
-        margin-top: 19.5px;
+        margin: 19.5px 0 0 0;
     }
     
     .content__time {
-        margin-top: 5px;
-        margin-left: -1px;
+        margin: 5px 0 0 -1px;
     }
     
     .content__text {
@@ -2268,8 +2224,7 @@ body {
 
     .series_section {
         min-width: 328px;
-        margin-top: 5px;
-        margin-left: 5px;
+        margin: 5px 0 0 5px;
     }
 
     .series_section + .series_section {
@@ -2288,7 +2243,6 @@ body {
     .sideTests {
         left: 73%;
     }
-
 
     .sideVideo {
         left: 73%;
@@ -2383,8 +2337,7 @@ body {
         display: block;
         height: 28px;
         width: 63px;
-        margin-top: 10px;
-        margin-left: 9%;
+        margin: 10px 0 0 9%;
         text-align: center;
         line-height: 28px;
     }
@@ -2411,8 +2364,7 @@ body {
     
     .content_labels {
         display: flex;
-        margin-left: 10px;
-        margin-top: 68px;
+        margin: 68px 0 0 10px;
     }
     
     .labels__item {
@@ -2446,8 +2398,7 @@ body {
     }
     
     .main__head {
-        margin-left: 15px;
-        margin-top: 34px;
+        margin: 34px 0 0 15px;
     }
     
     .main_bigSection {
@@ -2531,8 +2482,7 @@ body {
     .secondBlock_right {
         width: 768px;
         height: 386px;
-        margin-top: 15px;
-        margin-left: 0px;
+        margin: 15px 0 0 0;
         background-image: url(./assets/secondBlock_right768.png);
     }
     
@@ -2571,8 +2521,7 @@ body {
     .bigSection__text {
         width: 738px;
         height: 70px;
-        margin-top: 27px;
-        margin-left: 15px;
+        margin: 27px 0 0 15px;
     }
 
     .best {
@@ -2582,8 +2531,7 @@ body {
 
     .best_head__item {
         height: 34px;
-        margin-left: 15px;
-        margin-top: 15px;
+        margin: 15px 0 0 15px;
     }
     
     .best_head__item + .best_head__item {
@@ -2605,8 +2553,7 @@ body {
     
     .best_content {
         display: flex;
-        margin-left: 20px;
-        margin-top: 25px;
+        margin: 25px 0 0 20px;
     }
 
     .section:hover .block__topleftAngle,
@@ -2646,8 +2593,7 @@ body {
     }
     
     .series_content {
-        margin-top: 25px;
-        margin-left: 24px;
+        margin: 25px 0 0 24px;
     }
     
     .series_section {
@@ -2686,8 +2632,7 @@ body {
     }
     
     .series_section .section_btn {
-        margin-left: 21px;
-        margin-top: 12px;
+        margin: 12px 0 0 21px;
         width: 285px;
         height: 32px;
     }
@@ -2787,8 +2732,7 @@ body {
         display: block;
         height: 28px;
         width: 63px;
-        margin-top: 10px;
-        margin-left: 73px;
+        margin: 10px 0 0 73px;
         text-align: center;
         line-height: 28px;
     }
@@ -2809,8 +2753,7 @@ body {
     }
     
     .series_content {
-        margin-top: 25px;
-        margin-left: 19px;
+        margin: 25px 0 0 19px;
     }
 
     .series_section.third {
@@ -2891,8 +2834,7 @@ body {
     }
 
     .menu a {
-        margin-left: 0px;
-        margin-top: 10px;
+        margin: 10px 0 0 0;
     
         font-family: "PTSansCaptionRegular";
         font-size: 14px;
@@ -2939,8 +2881,7 @@ body {
     }
     
     .main__head {
-        margin-top: 22px;
-        margin-left: 11px;
+        margin: 22px 0 0 11px;
 
         font-family: "PTSansCaptionRegular";
         font-size: 20px;
@@ -2978,8 +2919,7 @@ body {
     .block__head {
         width: 80%;
         height: 102px;
-        margin-left: -5px;
-        margin-top: 42px;
+        margin: 42px 0 0 -5px;
 
         font-family: "BrutalBold";
         font-size: 20px;
@@ -2994,8 +2934,7 @@ body {
     .block__inscription {
         width: 294px;
         height: 23px;
-        margin-top: -14px;
-        margin-left: -18px;
+        margin: -14px 0 0 -18px;
     }
     
     .block__inscription span {
@@ -3005,8 +2944,7 @@ body {
     }
     
     .block_labels {
-        margin-top: -11px;
-        margin-left: -18px;
+        margin: -11px 0 0 -18px;
         display: flex;
     }
 
@@ -3105,8 +3043,7 @@ body {
     .bigSection__text {
         width: 95%;
         height: 190px;
-        margin-top: 38px;
-        margin-left: 17px;
+        margin: 38px 0 0 17px;
     }
     
     .bigSection__text span {
@@ -3130,8 +3067,7 @@ body {
     .best_head__item {
         width: 130px;
         height: 29px;
-        margin-left: 15px;
-        margin-top: 23px;
+        margin: 23px 0 0 15px;
         font-family: "PTSansBold";
         font-size: 17px;
         line-height: 24px;
@@ -3139,8 +3075,7 @@ body {
     }
     
     .best_head__item + .best_head__item {
-        margin-left: 29px;
-        margin-top: 23px;
+        margin: 23px 0 0 29px;
     }
     
     .best_head__item.first {
@@ -3166,8 +3101,7 @@ body {
     
     .best_content {
         display: flex;
-        margin-left: 19px;
-        margin-top: 22px;
+        margin: 22px 0 0 19px;
     }
     
     .section:hover .block__topleftAngle,
@@ -3202,8 +3136,7 @@ body {
     }
     
     .section .section__head {
-        margin-top: 15px;
-        margin-left: 20px;
+        margin: 15px 0 0 20px;
         font-family: "BrutalBold";
         font-size: 15px;
         line-height: 24px;
@@ -3248,8 +3181,7 @@ body {
     }
 
     .section_title .side_head__other {
-        margin-top: 20px;
-        margin-left: 95px;
+        margin: 20px 0 0 95px;
     }
 
     .section_title .side_head__other:hover {
@@ -3259,8 +3191,7 @@ body {
 
     .series_content {
         height: 430px;
-        margin-top: 0px;
-        margin-left: -10px;
+        margin: 0 0 0 -10px;
         display: flex;
     }
     
@@ -3271,14 +3202,12 @@ body {
     }
     
     .series_section .section__head {
-        margin-left: 20px;
-        margin-top: 13px;
+        margin: 13px 0 0 20px;
     }
     
     .series_section .section_body {
         position: relative;
-        margin-top: 20px;
-        margin-left: 14px;
+        margin: 20px 0 0 14px;
         width: 260px;
         height: 230px;
     }
@@ -3309,8 +3238,7 @@ body {
     }
 
     .body_item::before {
-        margin-top: 7px;
-        margin-left: -20px;
+        margin: 7px 0 0 -20px;
     }
     
     .body_item + .body_item {
@@ -3334,8 +3262,7 @@ body {
     }
     
     .series_section .section_btn {
-        margin-top: 9px;
-        margin-left: 20px;
+        margin: 9px 0 0 20px;
         width: 248px;
     }
     
@@ -3545,8 +3472,7 @@ body {
     }
 
     .menu a {
-        margin-left: 0px;
-        margin-top: 10px;
+        margin: 10px 0 0 0;
     
         font-family: "PTSansCaptionRegular";
         font-size: 14px;
@@ -3558,8 +3484,7 @@ body {
     .menu .menu__news {
         width: 60px;
         height: 30px;
-        margin-left: 1px;
-        margin-top: 9px;
+        margin: 9px 0 0 1px;
     }
     
     .menu .menu__video {
@@ -3593,8 +3518,7 @@ body {
     }
     
     .main__head {
-        margin-top: 22px;
-        margin-left: 11px;
+        margin: 22px 0 0 11px;
 
         font-family: "PTSansCaptionRegular";
         font-size: 20px;
@@ -3630,8 +3554,7 @@ body {
     .block__head {
         width: 290px;
         height: 102px;
-        margin-left: -5px;
-        margin-top: 42px;
+        margin: 42px 0 0 -5px;
 
         font-family: "BrutalBold";
         font-size: 20px;
@@ -3646,8 +3569,7 @@ body {
     .block__inscription {
         width: 294px;
         height: 23px;
-        margin-top: -14px;
-        margin-left: -18px;
+        margin: -14px 0 0 -18px;
     }
     
     .block__inscription span {
@@ -3657,8 +3579,7 @@ body {
     }
     
     .block_labels {
-        margin-top: -11px;
-        margin-left: -18px;
+        margin: -11px 0 0 -18px;
         display: flex;
     }
 
@@ -3753,8 +3674,7 @@ body {
     .bigSection__text {
         width: 320px;
         height: 190px;
-        margin-top: 38px;
-        margin-left: 17px;
+        margin: 38px 0 0 17px;
     }
     
     .bigSection__text span {
@@ -3778,8 +3698,7 @@ body {
     .best_head__item {
         width: 130px;
         height: 29px;
-        margin-left: 15px;
-        margin-top: 23px;
+        margin: 23px 0 0 15px;
         font-family: "PTSansBold";
         font-size: 17px;
         line-height: 24px;
@@ -3787,8 +3706,7 @@ body {
     }
     
     .best_head__item + .best_head__item {
-        margin-left: 29px;
-        margin-top: 23px;
+        margin: 23px 0 0 29px;
     }
     
     .best_head__item.first {
@@ -3850,8 +3768,7 @@ body {
     }
     
     .section .section__head {
-        margin-top: 15px;
-        margin-left: 20px;
+        margin: 15px 0 0 20px;
         font-family: "BrutalBold";
         font-size: 15px;
         line-height: 24px;
@@ -3896,8 +3813,7 @@ body {
     }
 
     .section_title .side_head__other {
-        margin-top: 20px;
-        margin-left: 95px;
+        margin: 20px 0 0 95px;
     }
 
     .section_title .side_head__other:hover {
@@ -3908,8 +3824,7 @@ body {
     .series_content {
         width: 350px;
         height: 430px;
-        margin-top: 0px;
-        margin-left: -10px;
+        margin: 0 0 0 -10px;
         display: flex;
     }
     
@@ -3920,14 +3835,12 @@ body {
     }
     
     .series_section .section__head {
-        margin-left: 20px;
-        margin-top: 13px;
+        margin: 13px 0 0 20px;
     }
     
     .series_section .section_body {
         position: relative;
-        margin-top: 20px;
-        margin-left: 14px;
+        margin: 20px 0 0 14px;
         width: 260px;
         height: 230px;
     }
@@ -3958,8 +3871,7 @@ body {
     }
 
     .body_item::before {
-        margin-top: 7px;
-        margin-left: -20px;
+        margin: 7px 0 0 -20px;
     }
     
     .body_item + .body_item {
@@ -3983,8 +3895,7 @@ body {
     }
     
     .series_section .section_btn {
-        margin-top: 9px;
-        margin-left: 20px;
+        margin: 9px 0 0 20px;
         width: 248px;
     }
     
